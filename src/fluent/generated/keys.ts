@@ -9,9 +9,25 @@ declare global {
                         table: 'sys_module'
                         id: '363e8aedcf0242dc95a2cb5717412697'
                     }
+                    create: {
+                        table: 'sys_ws_operation'
+                        id: 'b46e0688e5574581a5cdd59418603524'
+                    }
+                    header1: {
+                        table: 'sys_ws_header'
+                        id: '779526f22d5643ab835b0e0aa9eeaa0e'
+                    }
+                    'integration-engine-restapi': {
+                        table: 'sys_ws_definition'
+                        id: '17e8844379f84f1dad7f946bec574c3e'
+                    }
                     IntegrationEngine: {
                         table: 'sys_script_include'
                         id: '5bbbdbde6ebc4782b87d86251014c18c'
+                    }
+                    'integraton-engine-rest-acl': {
+                        table: 'sys_security_acl'
+                        id: '8fbe11f3c7f243f3967c21bf80142024'
                     }
                     JsonPath: {
                         table: 'sys_script_include'
@@ -21,9 +37,21 @@ declare global {
                         table: 'sys_module'
                         id: '151d14f0ae1341929a2693b347a2db6d'
                     }
+                    param1: {
+                        table: 'sys_ws_query_parameter'
+                        id: '7ba7ec0cccc84473a9fd9bcd7cce8ae7'
+                    }
+                    src_server_handler_ts: {
+                        table: 'sys_module'
+                        id: 'd1bffbc22bf448e4b495dd1a86496528'
+                    }
                     src_server_script_ts: {
                         table: 'sys_module'
                         id: 'da0a1851f2104e51958925f60646e5ab'
+                    }
+                    v1: {
+                        table: 'sys_ws_version'
+                        id: 'd62784f1eca84486a0bbe4d3b7b115af'
                     }
                 }
                 composite: [
@@ -297,6 +325,14 @@ declare global {
                         key: {
                             name: 'x_1311940_prism_transactions'
                             element: 'response_status'
+                        }
+                    },
+                    {
+                        table: 'sys_ws_query_parameter_map'
+                        id: '51f4773c7381434997424ed6a552a815'
+                        key: {
+                            web_service_operation: 'b46e0688e5574581a5cdd59418603524'
+                            web_service_query_parameter: '7ba7ec0cccc84473a9fd9bcd7cce8ae7'
                         }
                     },
                     {
@@ -657,6 +693,14 @@ declare global {
                         id: 'fdfc72c8e35847318decc693ab9eee74'
                         key: {
                             name: 'x_1311940_prism_transactions'
+                        }
+                    },
+                    {
+                        table: 'sys_ws_header_map'
+                        id: 'ffd80bf312704d748bf226331c092d69'
+                        key: {
+                            web_service_operation: 'b46e0688e5574581a5cdd59418603524'
+                            web_service_header: '779526f22d5643ab835b0e0aa9eeaa0e'
                         }
                     },
                 ]
