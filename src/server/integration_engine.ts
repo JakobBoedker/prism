@@ -1,5 +1,6 @@
 import { GlideDateTime, GlideRecord } from "@servicenow/glide";
 import type { RESTAPIRequest, RESTAPIResponse } from '@servicenow/glide/sn_ws_int'
+import { gs } from '@servicenow/glide' 
 
 
 function addTransaction(endpointId: string, raw: string): string {
@@ -25,7 +26,14 @@ function getEndpointId(endpoint: string): string {
     return gr.getUniqueValue();
 }
 
+
 export function processInbound(request: RESTAPIRequest, response: RESTAPIResponse){
+
+    if (!gs.hasRole('x_1311940_prism.integration_engine')){
+        response.setStatus(401);
+        return;
+    }
+
     const raw = request.body.dataString;
     const endpointName = request.pathParams.endpoint;
 
@@ -37,11 +45,8 @@ export function processInbound(request: RESTAPIRequest, response: RESTAPIRespons
 
     const transactionId = addTransaction(endpointTableID, raw);
     console.log(transactionId);
-
-    
-
-    
-
    
 
+    response.setStatus(200);
+    return;
 }

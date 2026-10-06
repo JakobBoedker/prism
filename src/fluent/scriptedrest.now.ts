@@ -18,6 +18,7 @@ RestApi({
         {
             $id: Now.ID['create'],
             path: 'ie/{endpoint}/create',
+            method: 'POST',
             script: processInbound,
             enforceAcl: [acl],
             version: 1,

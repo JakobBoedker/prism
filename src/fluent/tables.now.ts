@@ -19,6 +19,11 @@ export const x_1311940_prism_endpoint = Table({
             referenceTable: 'sys_db_object',
             cascadeRule: 'none',
         }),
+        integration_account: ReferenceColumn({
+            label: 'Integration Account',
+            referenceTable: 'sys_user',
+            cascadeRule: 'none',
+        }),
         root_path: StringColumn({
             label: 'Root Path',
         }),
@@ -73,13 +78,16 @@ export const x_1311940_prism_transactions = Table({
             label: 'Received At'
         }),
         request_body: StringColumn({
-            label: 'Request Body'
+            label: 'Request Body',
+            maxLength: 1000,
         }),
         response_status: StringColumn({
-            label: 'Response Status'
+            label: 'Response Status',
+            maxLength: 1000,
         }),
         response_body: StringColumn({
-            label: 'Response Body'
+            label: 'Response Body',
+            maxLength: 1000,
         }),
         state: StringColumn({
             label: 'State',
@@ -90,7 +98,8 @@ export const x_1311940_prism_transactions = Table({
             },
         }),
         error_message: StringColumn({
-            label: 'Error Message'
+            label: 'Error Message',
+            maxLength: 1000,
         }),
         target_table: ReferenceColumn({
             label: 'Target Table',
@@ -98,7 +107,8 @@ export const x_1311940_prism_transactions = Table({
             cascadeRule: 'none',
         }),
         target_sys_id: StringColumn({
-            label: 'Target SysID'
+            label: 'Target SysID',
+            maxLength: 1000,
         }),
     },
 })

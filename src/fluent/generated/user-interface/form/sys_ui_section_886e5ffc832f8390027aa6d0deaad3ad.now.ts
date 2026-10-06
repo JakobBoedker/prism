@@ -78,12 +78,21 @@ Record({
     },
 })
 Record({
-    $id: Now.ID['946e5ffc832f8390027aa6d0deaad3bf'],
+    $id: Now.ID['58ae4a4d83b74714027aa6d0deaad347'],
     table: 'sys_ui_element',
     data: {
         element: '.end_split',
-        position: 7,
+        position: 8,
         sys_ui_section: '886e5ffc832f8390027aa6d0deaad380',
         type: '.end_split',
+    },
+})
+Record({
+    $id: Now.ID['548e064d83b74714027aa6d0deaad377'],
+    table: 'sys_ui_element',
+    data: {
+        element: 'integration_account',
+        position: 7,
+        sys_ui_section: '886e5ffc832f8390027aa6d0deaad380',
     },
 })

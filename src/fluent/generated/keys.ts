@@ -5,6 +5,26 @@ declare global {
         namespace Internal {
             interface Keys extends KeysRegistry {
                 explicit: {
+                    '04ed928d833b4714027aa6d0deaad3a9': {
+                        table: 'sys_scope_privilege'
+                        id: '04ed928d833b4714027aa6d0deaad3a9'
+                    }
+                    '0cedd28d833b4714027aa6d0deaad308': {
+                        table: 'sys_scope_privilege'
+                        id: '0cedd28d833b4714027aa6d0deaad308'
+                    }
+                    '84edd28d833b4714027aa6d0deaad304': {
+                        table: 'sys_scope_privilege'
+                        id: '84edd28d833b4714027aa6d0deaad304'
+                    }
+                    a3dd928d833b4714027aa6d0deaad3a0: {
+                        table: 'sys_scope_privilege'
+                        id: 'a3dd928d833b4714027aa6d0deaad3a0'
+                    }
+                    'app-category': {
+                        table: 'sys_app_category'
+                        id: 'cd3a2745c6544935a0e31358b5d1b8a7'
+                    }
                     bom_json: {
                         table: 'sys_module'
                         id: '363e8aedcf0242dc95a2cb5717412697'
@@ -34,6 +54,18 @@ declare global {
                         table: 'sys_script_include'
                         id: '29993d1f6eb64ba784590dbc31ccf292'
                     }
+                    module_endpoint: {
+                        table: 'sys_app_module'
+                        id: 'bb02e609d6504571af6b6977430d00a7'
+                    }
+                    module_field_maps: {
+                        table: 'sys_app_module'
+                        id: 'acad65a96bb04cf496cbf039efa4f84d'
+                    }
+                    module_transactions: {
+                        table: 'sys_app_module'
+                        id: 'f491ba30135342b79d0dd9b1270c0172'
+                    }
                     package_json: {
                         table: 'sys_module'
                         id: '151d14f0ae1341929a2693b347a2db6d'
@@ -42,6 +74,10 @@ declare global {
                         table: 'sys_ws_query_parameter'
                         id: '7ba7ec0cccc84473a9fd9bcd7cce8ae7'
                         deleted: true
+                    }
+                    prism_applicaton_menu: {
+                        table: 'sys_app_application'
+                        id: '4ac15988f947427986ad98136aa729d6'
                     }
                     src_server_handler_ts: {
                         table: 'sys_module'
@@ -171,6 +207,14 @@ declare global {
                             }
                             element: 'root_path'
                             position: '6'
+                        }
+                    },
+                    {
+                        table: 'sys_dictionary'
+                        id: '198b5320370d4432933091fb8212dd52'
+                        key: {
+                            name: 'x_1311940_prism_endpoint'
+                            element: 'integration_account'
                         }
                     },
                     {
@@ -471,6 +515,23 @@ declare global {
                         }
                     },
                     {
+                        table: 'sys_ui_element'
+                        id: '548e064d83b74714027aa6d0deaad377'
+                        key: {
+                            sys_ui_section: {
+                                id: '886e5ffc832f8390027aa6d0deaad380'
+                                key: {
+                                    name: 'x_1311940_prism_endpoint'
+                                    caption: 'NULL'
+                                    view: 'Default view'
+                                    sys_domain: 'global'
+                                }
+                            }
+                            element: 'integration_account'
+                            position: '7'
+                        }
+                    },
+                    {
                         table: 'sys_choice'
                         id: '54bb39b0508e4371b6ede1b33be73874'
                         key: {
@@ -491,12 +552,46 @@ declare global {
                         }
                     },
                     {
+                        table: 'sys_ui_element'
+                        id: '58ae4a4d83b74714027aa6d0deaad347'
+                        key: {
+                            sys_ui_section: {
+                                id: '886e5ffc832f8390027aa6d0deaad380'
+                                key: {
+                                    name: 'x_1311940_prism_endpoint'
+                                    caption: 'NULL'
+                                    view: 'Default view'
+                                    sys_domain: 'global'
+                                }
+                            }
+                            element: '.end_split'
+                            position: '8'
+                        }
+                    },
+                    {
                         table: 'sys_documentation'
                         id: '5b0d7f77ae4a4f9badc2eaea2241784d'
                         key: {
                             name: 'x_1311940_prism_endpoint'
                             element: 'active'
                             language: 'en'
+                        }
+                    },
+                    {
+                        table: 'sys_ui_element'
+                        id: '5cae4a4d83b74714027aa6d0deaad345'
+                        key: {
+                            sys_ui_section: {
+                                id: '886e5ffc832f8390027aa6d0deaad380'
+                                key: {
+                                    name: 'x_1311940_prism_endpoint'
+                                    caption: 'NULL'
+                                    view: 'Default view'
+                                    sys_domain: 'global'
+                                }
+                            }
+                            element: 'local_table'
+                            position: '6'
                         }
                     },
                     {
@@ -632,6 +727,7 @@ declare global {
                     {
                         table: 'sys_ui_element'
                         id: '946e5ffc832f8390027aa6d0deaad3bf'
+                        deleted: true
                         key: {
                             sys_ui_section: {
                                 id: '886e5ffc832f8390027aa6d0deaad380'
@@ -720,6 +816,15 @@ declare global {
                         key: {
                             name: 'x_1311940_prism_field_maps'
                             element: 'NULL'
+                            language: 'en'
+                        }
+                    },
+                    {
+                        table: 'sys_documentation'
+                        id: 'ac4d8b0d294a4cda9893ac0d9d45d005'
+                        key: {
+                            name: 'x_1311940_prism_endpoint'
+                            element: 'integration_account'
                             language: 'en'
                         }
                     },
@@ -853,6 +958,23 @@ declare global {
                         }
                     },
                     {
+                        table: 'sys_ui_element'
+                        id: 'd0ae4a4d83b74714027aa6d0deaad32b'
+                        key: {
+                            sys_ui_section: {
+                                id: '886e5ffc832f8390027aa6d0deaad380'
+                                key: {
+                                    name: 'x_1311940_prism_endpoint'
+                                    caption: 'NULL'
+                                    view: 'Default view'
+                                    sys_domain: 'global'
+                                }
+                            }
+                            element: 'integration_account'
+                            position: '4'
+                        }
+                    },
+                    {
                         table: 'sys_choice'
                         id: 'd5c4738d30d84a9a83dbc7b4b51a0aac'
                         key: {
@@ -861,6 +983,40 @@ declare global {
                             value: 'complete'
                             language: 'en'
                             dependent_value: 'NULL'
+                        }
+                    },
+                    {
+                        table: 'sys_ui_element'
+                        id: 'd8ae4a4d83b74714027aa6d0deaad346'
+                        key: {
+                            sys_ui_section: {
+                                id: '886e5ffc832f8390027aa6d0deaad380'
+                                key: {
+                                    name: 'x_1311940_prism_endpoint'
+                                    caption: 'NULL'
+                                    view: 'Default view'
+                                    sys_domain: 'global'
+                                }
+                            }
+                            element: 'root_path'
+                            position: '7'
+                        }
+                    },
+                    {
+                        table: 'sys_ui_element'
+                        id: 'dcae4a4d83b74714027aa6d0deaad344'
+                        key: {
+                            sys_ui_section: {
+                                id: '886e5ffc832f8390027aa6d0deaad380'
+                                key: {
+                                    name: 'x_1311940_prism_endpoint'
+                                    caption: 'NULL'
+                                    view: 'Default view'
+                                    sys_domain: 'global'
+                                }
+                            }
+                            element: '.split'
+                            position: '5'
                         }
                     },
                     {
