@@ -16,6 +16,7 @@ declare global {
                     header1: {
                         table: 'sys_ws_header'
                         id: '779526f22d5643ab835b0e0aa9eeaa0e'
+                        deleted: true
                     }
                     'integration-engine-restapi': {
                         table: 'sys_ws_definition'
@@ -40,10 +41,16 @@ declare global {
                     param1: {
                         table: 'sys_ws_query_parameter'
                         id: '7ba7ec0cccc84473a9fd9bcd7cce8ae7'
+                        deleted: true
                     }
                     src_server_handler_ts: {
                         table: 'sys_module'
                         id: 'd1bffbc22bf448e4b495dd1a86496528'
+                        deleted: true
+                    }
+                    src_server_integration_engine_ts: {
+                        table: 'sys_module'
+                        id: 'c1a585e4599f41879e56087ebb557040'
                     }
                     src_server_script_ts: {
                         table: 'sys_module'
@@ -330,6 +337,7 @@ declare global {
                     {
                         table: 'sys_ws_query_parameter_map'
                         id: '51f4773c7381434997424ed6a552a815'
+                        deleted: true
                         key: {
                             web_service_operation: 'b46e0688e5574581a5cdd59418603524'
                             web_service_query_parameter: '7ba7ec0cccc84473a9fd9bcd7cce8ae7'
@@ -698,6 +706,7 @@ declare global {
                     {
                         table: 'sys_ws_header_map'
                         id: 'ffd80bf312704d748bf226331c092d69'
+                        deleted: true
                         key: {
                             web_service_operation: 'b46e0688e5574581a5cdd59418603524'
                             web_service_header: '779526f22d5643ab835b0e0aa9eeaa0e'
