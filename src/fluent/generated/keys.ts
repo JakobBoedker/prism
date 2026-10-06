@@ -52,9 +52,17 @@ declare global {
                         table: 'sys_module'
                         id: 'c1a585e4599f41879e56087ebb557040'
                     }
+                    src_server_jsonpath_ts: {
+                        table: 'sys_module'
+                        id: 'a6e1ec1528b440ee96877e6d61a6bb78'
+                    }
                     src_server_script_ts: {
                         table: 'sys_module'
                         id: 'da0a1851f2104e51958925f60646e5ab'
+                    }
+                    src_server_types_ts: {
+                        table: 'sys_module'
+                        id: 'a3262e4f425241f0bf8af9b931c31087'
                     }
                     v1: {
                         table: 'sys_ws_version'
@@ -262,6 +270,23 @@ declare global {
                         }
                     },
                     {
+                        table: 'sys_ui_element'
+                        id: '4144bdbe832b83d0027aa6d0deaad373'
+                        key: {
+                            sys_ui_section: {
+                                id: '8d44bdbe832b83d0027aa6d0deaad361'
+                                key: {
+                                    name: 'x_1311940_prism_transactions'
+                                    caption: 'NULL'
+                                    view: 'Default view'
+                                    sys_domain: 'global'
+                                }
+                            }
+                            element: 'request_body'
+                            position: '7'
+                        }
+                    },
+                    {
                         table: 'sys_choice_set'
                         id: '41d5cc4e9846496e96af3c391bdcecea'
                         key: {
@@ -281,6 +306,40 @@ declare global {
                         id: '437a34c3ccbd4d15acbd45682713149d'
                         key: {
                             name: 'x_1311940_prism_field_maps'
+                        }
+                    },
+                    {
+                        table: 'sys_ui_element'
+                        id: '4544bdbe832b83d0027aa6d0deaad36c'
+                        key: {
+                            sys_ui_section: {
+                                id: '8d44bdbe832b83d0027aa6d0deaad361'
+                                key: {
+                                    name: 'x_1311940_prism_transactions'
+                                    caption: 'NULL'
+                                    view: 'Default view'
+                                    sys_domain: 'global'
+                                }
+                            }
+                            element: '.begin_split'
+                            position: '0'
+                        }
+                    },
+                    {
+                        table: 'sys_ui_element'
+                        id: '4544bdbe832b83d0027aa6d0deaad371'
+                        key: {
+                            sys_ui_section: {
+                                id: '8d44bdbe832b83d0027aa6d0deaad361'
+                                key: {
+                                    name: 'x_1311940_prism_transactions'
+                                    caption: 'NULL'
+                                    view: 'Default view'
+                                    sys_domain: 'global'
+                                }
+                            }
+                            element: 'target_sys_id'
+                            position: '5'
                         }
                     },
                     {
@@ -311,6 +370,40 @@ declare global {
                     },
                     {
                         table: 'sys_ui_element'
+                        id: '4944bdbe832b83d0027aa6d0deaad36f'
+                        key: {
+                            sys_ui_section: {
+                                id: '8d44bdbe832b83d0027aa6d0deaad361'
+                                key: {
+                                    name: 'x_1311940_prism_transactions'
+                                    caption: 'NULL'
+                                    view: 'Default view'
+                                    sys_domain: 'global'
+                                }
+                            }
+                            element: 'response_body'
+                            position: '3'
+                        }
+                    },
+                    {
+                        table: 'sys_ui_element'
+                        id: '4944bdbe832b83d0027aa6d0deaad376'
+                        key: {
+                            sys_ui_section: {
+                                id: '8d44bdbe832b83d0027aa6d0deaad361'
+                                key: {
+                                    name: 'x_1311940_prism_transactions'
+                                    caption: 'NULL'
+                                    view: 'Default view'
+                                    sys_domain: 'global'
+                                }
+                            }
+                            element: '.end_split'
+                            position: '11'
+                        }
+                    },
+                    {
+                        table: 'sys_ui_element'
                         id: '4c6e5ffc832f8390027aa6d0deaad3b8'
                         key: {
                             sys_ui_section: {
@@ -324,6 +417,40 @@ declare global {
                             }
                             element: '.begin_split'
                             position: '0'
+                        }
+                    },
+                    {
+                        table: 'sys_ui_element'
+                        id: '4d44bdbe832b83d0027aa6d0deaad36d'
+                        key: {
+                            sys_ui_section: {
+                                id: '8d44bdbe832b83d0027aa6d0deaad361'
+                                key: {
+                                    name: 'x_1311940_prism_transactions'
+                                    caption: 'NULL'
+                                    view: 'Default view'
+                                    sys_domain: 'global'
+                                }
+                            }
+                            element: 'endpoint'
+                            position: '1'
+                        }
+                    },
+                    {
+                        table: 'sys_ui_element'
+                        id: '4d44bdbe832b83d0027aa6d0deaad374'
+                        key: {
+                            sys_ui_section: {
+                                id: '8d44bdbe832b83d0027aa6d0deaad361'
+                                key: {
+                                    name: 'x_1311940_prism_transactions'
+                                    caption: 'NULL'
+                                    view: 'Default view'
+                                    sys_domain: 'global'
+                                }
+                            }
+                            element: 'state'
+                            position: '9'
                         }
                     },
                     {
@@ -379,6 +506,13 @@ declare global {
                             name: 'x_1311940_prism_endpoint'
                             element: 'direction'
                             language: 'en'
+                        }
+                    },
+                    {
+                        table: 'sys_user_role'
+                        id: '5d843d7828e94aaf830c7219c353fa70'
+                        key: {
+                            name: 'x_1311940_prism.integration_engine'
                         }
                     },
                     {
@@ -445,6 +579,21 @@ declare global {
                         id: '886e5ffc832f8390027aa6d0deaad380'
                         key: {
                             name: 'x_1311940_prism_endpoint'
+                            caption: 'NULL'
+                            view: {
+                                id: 'Default view'
+                                key: {
+                                    name: 'NULL'
+                                }
+                            }
+                            sys_domain: 'global'
+                        }
+                    },
+                    {
+                        table: 'sys_ui_section'
+                        id: '8d44bdbe832b83d0027aa6d0deaad361'
+                        key: {
+                            name: 'x_1311940_prism_transactions'
                             caption: 'NULL'
                             view: {
                                 id: 'Default view'
@@ -583,6 +732,40 @@ declare global {
                         }
                     },
                     {
+                        table: 'sys_ui_element'
+                        id: 'c144bdbe832b83d0027aa6d0deaad372'
+                        key: {
+                            sys_ui_section: {
+                                id: '8d44bdbe832b83d0027aa6d0deaad361'
+                                key: {
+                                    name: 'x_1311940_prism_transactions'
+                                    caption: 'NULL'
+                                    view: 'Default view'
+                                    sys_domain: 'global'
+                                }
+                            }
+                            element: '.split'
+                            position: '6'
+                        }
+                    },
+                    {
+                        table: 'sys_ui_element'
+                        id: 'c544bdbe832b83d0027aa6d0deaad370'
+                        key: {
+                            sys_ui_section: {
+                                id: '8d44bdbe832b83d0027aa6d0deaad361'
+                                key: {
+                                    name: 'x_1311940_prism_transactions'
+                                    caption: 'NULL'
+                                    view: 'Default view'
+                                    sys_domain: 'global'
+                                }
+                            }
+                            element: 'error_message'
+                            position: '4'
+                        }
+                    },
+                    {
                         table: 'sys_dictionary'
                         id: 'c708698948064f35897e5fc6cea62f23'
                         key: {
@@ -600,11 +783,62 @@ declare global {
                         }
                     },
                     {
+                        table: 'sys_ui_element'
+                        id: 'c944bdbe832b83d0027aa6d0deaad36e'
+                        key: {
+                            sys_ui_section: {
+                                id: '8d44bdbe832b83d0027aa6d0deaad361'
+                                key: {
+                                    name: 'x_1311940_prism_transactions'
+                                    caption: 'NULL'
+                                    view: 'Default view'
+                                    sys_domain: 'global'
+                                }
+                            }
+                            element: 'received_at'
+                            position: '2'
+                        }
+                    },
+                    {
+                        table: 'sys_ui_element'
+                        id: 'c944bdbe832b83d0027aa6d0deaad375'
+                        key: {
+                            sys_ui_section: {
+                                id: '8d44bdbe832b83d0027aa6d0deaad361'
+                                key: {
+                                    name: 'x_1311940_prism_transactions'
+                                    caption: 'NULL'
+                                    view: 'Default view'
+                                    sys_domain: 'global'
+                                }
+                            }
+                            element: 'target_table'
+                            position: '10'
+                        }
+                    },
+                    {
                         table: 'sys_dictionary'
                         id: 'c9b2b9e7e5254f00934ca3445776a2c7'
                         key: {
                             name: 'x_1311940_prism_endpoint'
                             element: 'name'
+                        }
+                    },
+                    {
+                        table: 'sys_ui_element'
+                        id: 'cd44bdbe832b83d0027aa6d0deaad373'
+                        key: {
+                            sys_ui_section: {
+                                id: '8d44bdbe832b83d0027aa6d0deaad361'
+                                key: {
+                                    name: 'x_1311940_prism_transactions'
+                                    caption: 'NULL'
+                                    view: 'Default view'
+                                    sys_domain: 'global'
+                                }
+                            }
+                            element: 'response_status'
+                            position: '8'
                         }
                     },
                     {

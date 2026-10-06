@@ -1,6 +1,6 @@
 import { GlideDateTime, GlideRecord } from "@servicenow/glide";
 import type { RESTAPIRequest, RESTAPIResponse } from '@servicenow/glide/sn_ws_int'
-import type { endpoint, field_maps, transactions } from '../server/types'
+
 
 function addTransaction(endpointId: string, raw: string): string {
     // Get Time for request
@@ -13,7 +13,6 @@ function addTransaction(endpointId: string, raw: string): string {
     gr.setValue('request_body', raw);
     gr.setValue('state', 'Received');
     return gr.insert();
-
 }
 
 function getEndpointId(endpoint: string): string {
@@ -37,6 +36,9 @@ export function processInbound(request: RESTAPIRequest, response: RESTAPIRespons
     }
 
     const transactionId = addTransaction(endpointTableID, raw);
+    console.log(transactionId);
+
+    
 
     
 
