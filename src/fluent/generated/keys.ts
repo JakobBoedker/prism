@@ -107,12 +107,46 @@ declare global {
                 }
                 composite: [
                     {
+                        table: 'sys_ui_element'
+                        id: '04f1e6c5837b4714027aa6d0deaad390'
+                        key: {
+                            sys_ui_section: {
+                                id: 'b7e1e6c5837b4714027aa6d0deaad34f'
+                                key: {
+                                    name: 'x_1311940_prism_field_maps'
+                                    caption: 'NULL'
+                                    view: 'Default view'
+                                    sys_domain: 'global'
+                                }
+                            }
+                            element: '.end_split'
+                            position: '6'
+                        }
+                    },
+                    {
                         table: 'sys_documentation'
                         id: '0791d851cfd6491fb6f9a69197a0be93'
                         key: {
                             name: 'x_1311940_prism_transactions'
                             element: 'target_table'
                             language: 'en'
+                        }
+                    },
+                    {
+                        table: 'sys_ui_element'
+                        id: '08f1e6c5837b4714027aa6d0deaad38e'
+                        key: {
+                            sys_ui_section: {
+                                id: 'b7e1e6c5837b4714027aa6d0deaad34f'
+                                key: {
+                                    name: 'x_1311940_prism_field_maps'
+                                    caption: 'NULL'
+                                    view: 'Default view'
+                                    sys_domain: 'global'
+                                }
+                            }
+                            element: 'local_field'
+                            position: '4'
                         }
                     },
                     {
@@ -137,6 +171,7 @@ declare global {
                     {
                         table: 'sys_ui_element'
                         id: '106e5ffc832f8390027aa6d0deaad3bb'
+                        deleted: true
                         key: {
                             sys_ui_section: {
                                 id: '886e5ffc832f8390027aa6d0deaad380'
@@ -195,6 +230,7 @@ declare global {
                     {
                         table: 'sys_ui_element'
                         id: '186e5ffc832f8390027aa6d0deaad3be'
+                        deleted: true
                         key: {
                             sys_ui_section: {
                                 id: '886e5ffc832f8390027aa6d0deaad380'
@@ -229,6 +265,7 @@ declare global {
                     {
                         table: 'sys_ui_element'
                         id: '1c6e5ffc832f8390027aa6d0deaad3bc'
+                        deleted: true
                         key: {
                             sys_ui_section: {
                                 id: '886e5ffc832f8390027aa6d0deaad380'
@@ -297,6 +334,23 @@ declare global {
                         }
                     },
                     {
+                        table: 'sys_ui_element'
+                        id: '33e1e6c5837b4714027aa6d0deaad38b'
+                        key: {
+                            sys_ui_section: {
+                                id: 'b7e1e6c5837b4714027aa6d0deaad34f'
+                                key: {
+                                    name: 'x_1311940_prism_field_maps'
+                                    caption: 'NULL'
+                                    view: 'Default view'
+                                    sys_domain: 'global'
+                                }
+                            }
+                            element: '.begin_split'
+                            position: '0'
+                        }
+                    },
+                    {
                         table: 'sys_documentation'
                         id: '376dfa05e19d48e1b6e62021acafcf8e'
                         key: {
@@ -306,11 +360,64 @@ declare global {
                         }
                     },
                     {
+                        table: 'sys_ui_element'
+                        id: '39a0e605837b4714027aa6d0deaad38c'
+                        deleted: true
+                        key: {
+                            sys_ui_section: {
+                                id: '886e5ffc832f8390027aa6d0deaad380'
+                                key: {
+                                    name: 'x_1311940_prism_endpoint'
+                                    caption: 'NULL'
+                                    view: 'Default view'
+                                    sys_domain: 'global'
+                                }
+                            }
+                            element: 'integration_account'
+                            position: '3'
+                        }
+                    },
+                    {
+                        table: 'sys_ui_element'
+                        id: '3da0e605837b4714027aa6d0deaad38a'
+                        deleted: true
+                        key: {
+                            sys_ui_section: {
+                                id: '886e5ffc832f8390027aa6d0deaad380'
+                                key: {
+                                    name: 'x_1311940_prism_endpoint'
+                                    caption: 'NULL'
+                                    view: 'Default view'
+                                    sys_domain: 'global'
+                                }
+                            }
+                            element: 'active'
+                            position: '1'
+                        }
+                    },
+                    {
                         table: 'sys_dictionary'
                         id: '3f871c63cf994a69b70a77aa01135f97'
                         key: {
                             name: 'x_1311940_prism_field_maps'
                             element: 'local_field'
+                        }
+                    },
+                    {
+                        table: 'sys_ui_element'
+                        id: '3fe1e6c5837b4714027aa6d0deaad38c'
+                        key: {
+                            sys_ui_section: {
+                                id: 'b7e1e6c5837b4714027aa6d0deaad34f'
+                                key: {
+                                    name: 'x_1311940_prism_field_maps'
+                                    caption: 'NULL'
+                                    view: 'Default view'
+                                    sys_domain: 'global'
+                                }
+                            }
+                            element: 'endpoint'
+                            position: '2'
                         }
                     },
                     {
@@ -449,6 +556,7 @@ declare global {
                     {
                         table: 'sys_ui_element'
                         id: '4c6e5ffc832f8390027aa6d0deaad3b8'
+                        deleted: true
                         key: {
                             sys_ui_section: {
                                 id: '886e5ffc832f8390027aa6d0deaad380'
@@ -517,6 +625,7 @@ declare global {
                     {
                         table: 'sys_ui_element'
                         id: '548e064d83b74714027aa6d0deaad377'
+                        deleted: true
                         key: {
                             sys_ui_section: {
                                 id: '886e5ffc832f8390027aa6d0deaad380'
@@ -554,6 +663,7 @@ declare global {
                     {
                         table: 'sys_ui_element'
                         id: '58ae4a4d83b74714027aa6d0deaad347'
+                        deleted: true
                         key: {
                             sys_ui_section: {
                                 id: '886e5ffc832f8390027aa6d0deaad380'
@@ -580,6 +690,7 @@ declare global {
                     {
                         table: 'sys_ui_element'
                         id: '5cae4a4d83b74714027aa6d0deaad345'
+                        deleted: true
                         key: {
                             sys_ui_section: {
                                 id: '886e5ffc832f8390027aa6d0deaad380'
@@ -654,6 +765,23 @@ declare global {
                         }
                     },
                     {
+                        table: 'sys_ui_element'
+                        id: '76eb5add837bc714027aa6d0deaad366'
+                        key: {
+                            sys_ui_section: {
+                                id: '886e5ffc832f8390027aa6d0deaad380'
+                                key: {
+                                    name: 'x_1311940_prism_endpoint'
+                                    caption: 'NULL'
+                                    view: 'Default view'
+                                    sys_domain: 'global'
+                                }
+                            }
+                            element: 'direction'
+                            position: '5'
+                        }
+                    },
+                    {
                         table: 'sys_documentation'
                         id: '779765fa6b454da2bf3b8ec6373fd284'
                         key: {
@@ -663,10 +791,61 @@ declare global {
                         }
                     },
                     {
+                        table: 'sys_ui_element'
+                        id: '7aeb5add837bc714027aa6d0deaad364'
+                        key: {
+                            sys_ui_section: {
+                                id: '886e5ffc832f8390027aa6d0deaad380'
+                                key: {
+                                    name: 'x_1311940_prism_endpoint'
+                                    caption: 'NULL'
+                                    view: 'Default view'
+                                    sys_domain: 'global'
+                                }
+                            }
+                            element: 'active'
+                            position: '3'
+                        }
+                    },
+                    {
+                        table: 'sys_ui_element'
+                        id: '7eeb5add837bc714027aa6d0deaad362'
+                        key: {
+                            sys_ui_section: {
+                                id: '886e5ffc832f8390027aa6d0deaad380'
+                                key: {
+                                    name: 'x_1311940_prism_endpoint'
+                                    caption: 'NULL'
+                                    view: 'Default view'
+                                    sys_domain: 'global'
+                                }
+                            }
+                            element: 'integration_account'
+                            position: '1'
+                        }
+                    },
+                    {
                         table: 'sys_db_object'
                         id: '8107d53cded24ee080fe4bb5e7e8ad2c'
                         key: {
                             name: 'x_1311940_prism_field_maps'
+                        }
+                    },
+                    {
+                        table: 'sys_ui_element'
+                        id: '84f1e6c5837b4714027aa6d0deaad38f'
+                        key: {
+                            sys_ui_section: {
+                                id: 'b7e1e6c5837b4714027aa6d0deaad34f'
+                                key: {
+                                    name: 'x_1311940_prism_field_maps'
+                                    caption: 'NULL'
+                                    view: 'Default view'
+                                    sys_domain: 'global'
+                                }
+                            }
+                            element: 'order'
+                            position: '5'
                         }
                     },
                     {
@@ -702,6 +881,7 @@ declare global {
                     {
                         table: 'sys_ui_element'
                         id: '906e5ffc832f8390027aa6d0deaad3ba'
+                        deleted: true
                         key: {
                             sys_ui_section: {
                                 id: '886e5ffc832f8390027aa6d0deaad380'
@@ -745,6 +925,7 @@ declare global {
                     {
                         table: 'sys_ui_element'
                         id: '986e5ffc832f8390027aa6d0deaad3bd'
+                        deleted: true
                         key: {
                             sys_ui_section: {
                                 id: '886e5ffc832f8390027aa6d0deaad380'
@@ -781,6 +962,7 @@ declare global {
                     {
                         table: 'sys_ui_element'
                         id: '9c6e5ffc832f8390027aa6d0deaad3bb'
+                        deleted: true
                         key: {
                             sys_ui_section: {
                                 id: '886e5ffc832f8390027aa6d0deaad380'
@@ -829,11 +1011,112 @@ declare global {
                         }
                     },
                     {
+                        table: 'sys_ui_element'
+                        id: 'b5a0e605837b4714027aa6d0deaad38d'
+                        key: {
+                            sys_ui_section: {
+                                id: '886e5ffc832f8390027aa6d0deaad380'
+                                key: {
+                                    name: 'x_1311940_prism_endpoint'
+                                    caption: 'NULL'
+                                    view: 'Default view'
+                                    sys_domain: 'global'
+                                }
+                            }
+                            element: 'root_path'
+                            position: '4'
+                        }
+                    },
+                    {
+                        table: 'sys_ui_section'
+                        id: 'b7e1e6c5837b4714027aa6d0deaad34f'
+                        key: {
+                            name: 'x_1311940_prism_field_maps'
+                            caption: 'NULL'
+                            view: {
+                                id: 'Default view'
+                                key: {
+                                    name: 'NULL'
+                                }
+                            }
+                            sys_domain: 'global'
+                        }
+                    },
+                    {
+                        table: 'sys_ui_element'
+                        id: 'b9a0e605837b4714027aa6d0deaad38b'
+                        deleted: true
+                        key: {
+                            sys_ui_section: {
+                                id: '886e5ffc832f8390027aa6d0deaad380'
+                                key: {
+                                    name: 'x_1311940_prism_endpoint'
+                                    caption: 'NULL'
+                                    view: 'Default view'
+                                    sys_domain: 'global'
+                                }
+                            }
+                            element: 'direction'
+                            position: '2'
+                        }
+                    },
+                    {
+                        table: 'sys_ui_element'
+                        id: 'bbe1e6c5837b4714027aa6d0deaad38d'
+                        key: {
+                            sys_ui_section: {
+                                id: 'b7e1e6c5837b4714027aa6d0deaad34f'
+                                key: {
+                                    name: 'x_1311940_prism_field_maps'
+                                    caption: 'NULL'
+                                    view: 'Default view'
+                                    sys_domain: 'global'
+                                }
+                            }
+                            element: '.split'
+                            position: '3'
+                        }
+                    },
+                    {
+                        table: 'sys_ui_element'
+                        id: 'bda0e605837b4714027aa6d0deaad389'
+                        key: {
+                            sys_ui_section: {
+                                id: '886e5ffc832f8390027aa6d0deaad380'
+                                key: {
+                                    name: 'x_1311940_prism_endpoint'
+                                    caption: 'NULL'
+                                    view: 'Default view'
+                                    sys_domain: 'global'
+                                }
+                            }
+                            element: 'name'
+                            position: '0'
+                        }
+                    },
+                    {
                         table: 'sys_dictionary'
                         id: 'bda9c035e1f14207a7748250730ee54b'
                         key: {
                             name: 'x_1311940_prism_endpoint'
                             element: 'NULL'
+                        }
+                    },
+                    {
+                        table: 'sys_ui_element'
+                        id: 'bfe1e6c5837b4714027aa6d0deaad38b'
+                        key: {
+                            sys_ui_section: {
+                                id: 'b7e1e6c5837b4714027aa6d0deaad34f'
+                                key: {
+                                    name: 'x_1311940_prism_field_maps'
+                                    caption: 'NULL'
+                                    view: 'Default view'
+                                    sys_domain: 'global'
+                                }
+                            }
+                            element: 'external_path'
+                            position: '1'
                         }
                     },
                     {
@@ -960,6 +1243,7 @@ declare global {
                     {
                         table: 'sys_ui_element'
                         id: 'd0ae4a4d83b74714027aa6d0deaad32b'
+                        deleted: true
                         key: {
                             sys_ui_section: {
                                 id: '886e5ffc832f8390027aa6d0deaad380'
@@ -988,6 +1272,7 @@ declare global {
                     {
                         table: 'sys_ui_element'
                         id: 'd8ae4a4d83b74714027aa6d0deaad346'
+                        deleted: true
                         key: {
                             sys_ui_section: {
                                 id: '886e5ffc832f8390027aa6d0deaad380'
@@ -1005,6 +1290,7 @@ declare global {
                     {
                         table: 'sys_ui_element'
                         id: 'dcae4a4d83b74714027aa6d0deaad344'
+                        deleted: true
                         key: {
                             sys_ui_section: {
                                 id: '886e5ffc832f8390027aa6d0deaad380'
@@ -1075,6 +1361,23 @@ declare global {
                         key: {
                             name: 'x_1311940_prism_field_maps'
                             element: 'endpoint'
+                        }
+                    },
+                    {
+                        table: 'sys_ui_element'
+                        id: 'faeb5add837bc714027aa6d0deaad363'
+                        key: {
+                            sys_ui_section: {
+                                id: '886e5ffc832f8390027aa6d0deaad380'
+                                key: {
+                                    name: 'x_1311940_prism_endpoint'
+                                    caption: 'NULL'
+                                    view: 'Default view'
+                                    sys_domain: 'global'
+                                }
+                            }
+                            element: 'local_table'
+                            position: '2'
                         }
                     },
                     {

@@ -25,7 +25,7 @@ function tokenizer(path: string): string[] {
     return out;
 }
 
-export function get(ojb: any, path: string): unknown {
+export function get(ojb: any, path: string): string {
     let cur = ojb;
     for ( const key of tokenizer(path) ){
         if ( cur === null || typeof cur !== 'object') return undefined;

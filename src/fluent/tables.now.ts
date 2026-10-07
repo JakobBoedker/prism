@@ -1,4 +1,4 @@
-import {Table, StringColumn, BooleanColumn, ReferenceColumn, IntegerColumn, DateTimeColumn } from '@servicenow/sdk/core'
+import {Table, StringColumn, BooleanColumn, ReferenceColumn, IntegerColumn, DateTimeColumn, ScriptColumn} from '@servicenow/sdk/core'
 
 export const x_1311940_prism_endpoint = Table({
     name: 'x_1311940_prism_endpoint',
@@ -111,4 +111,24 @@ export const x_1311940_prism_transactions = Table({
             maxLength: 1000,
         }),
     },
+})
+
+export const x_1311940_prism_rules = Table({
+    name: 'x_1311940_prism_rules',
+    label: 'Rules',
+    schema: {
+        endpoint: ReferenceColumn({
+            label: 'Endpoint',
+            referenceTable: 'x_1311940_prism_endpoint',
+            cascadeRule: 'none',
+        }),
+
+        rule_script: ScriptColumn({
+            label: 'Rule script',
+            default: '// "value" hold the script for checking the rule against the integration payload',
+            mandatory: true,
+
+        })
+
+    }
 })
