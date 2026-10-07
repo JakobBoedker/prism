@@ -5,7 +5,7 @@ ScriptInclude({
     name: 'JsonPath',
     active: true,
     apiName: 'x_1311940_prism.JsonPath',
-    script: Now.include('../server/jsonpath.ts'),
+    script: Now.include('../server/tokenizer.ts'),
 })
 
 ScriptInclude({
