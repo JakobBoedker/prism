@@ -15,7 +15,7 @@ export const applicationMenu = ApplicationMenu({
     hint: 'Prism application menu',
     description: 'application menu prism integration engine',
     category: appCategory,
-    roles: ['admin'],
+    roles: ['x_1311940_prism.admin'],
     active: true,
 })
 
@@ -27,7 +27,7 @@ export const tableSubMenu = Record({
         application: applicationMenu,
         link_type: 'LIST',
         name: 'x_1311940_prism_transactions',
-        roles: ['admin', 'itil'],
+        roles: ['x_1311940_prism.admin'],
         active: true,
         order: 100,
     },
@@ -40,7 +40,7 @@ export const tableSubMenu2 = Record({
         application: applicationMenu,
         link_type: 'LIST',
         name: 'x_1311940_prism_endpoint',
-        roles: ['admin', 'itil'],
+        roles: ['x_1311940_prism.admin'],
         active: true,
         order: 101,
     },
@@ -53,9 +53,23 @@ export const tableSubMenu3 = Record({
         application: applicationMenu,
         link_type: 'LIST',
         name: 'x_1311940_prism_field_maps',
-        roles: ['admin', 'itil'],
+        roles: ['x_1311940_prism.admin'],
         active: true,
         order: 102,
+    },
+})
+
+export const tableSubMenu4 = Record({
+    $id: Now.ID['module_rules'],
+    table: 'sys_app_module',
+    data: {
+        title: 'Rules',
+        application: applicationMenu,
+        link_type: 'LIST',
+        name: 'x_1311940_prism_rules',
+        roles: ['x_1311940_prism.admin'],
+        active: true,
+        order: 103,
     },
 })
 

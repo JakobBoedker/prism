@@ -4,3 +4,8 @@ Role({
     name: 'x_1311940_prism.integration_engine',
     description: 'Gives access to use the REST API for the integration engine.'
 })
+
+Role({
+    name: 'x_1311940_prism.admin',
+    description: 'Gives access to the application menu',
+})

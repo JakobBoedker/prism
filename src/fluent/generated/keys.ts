@@ -91,10 +91,15 @@ declare global {
                     src_server_jsonpath_ts: {
                         table: 'sys_module'
                         id: 'a6e1ec1528b440ee96877e6d61a6bb78'
+                        deleted: true
                     }
                     src_server_script_ts: {
                         table: 'sys_module'
                         id: 'da0a1851f2104e51958925f60646e5ab'
+                    }
+                    src_server_tokenizer_ts: {
+                        table: 'sys_module'
+                        id: '475a75381dce4e028ee0c214864dc126'
                     }
                     src_server_types_ts: {
                         table: 'sys_module'
@@ -106,6 +111,14 @@ declare global {
                     }
                 }
                 composite: [
+                    {
+                        table: 'sys_dictionary'
+                        id: '0320c4f3b7264a769a6f6c2e72be9787'
+                        key: {
+                            name: 'x_1311940_prism_rules'
+                            element: 'NULL'
+                        }
+                    },
                     {
                         table: 'sys_ui_element'
                         id: '04f1e6c5837b4714027aa6d0deaad390'
@@ -130,6 +143,21 @@ declare global {
                             name: 'x_1311940_prism_transactions'
                             element: 'target_table'
                             language: 'en'
+                        }
+                    },
+                    {
+                        table: 'sys_dictionary'
+                        id: '08527f630d0c46f097ba3c581942503c'
+                        key: {
+                            name: 'x_1311940_prism_rules'
+                            element: 'rule_script'
+                        }
+                    },
+                    {
+                        table: 'sys_db_object'
+                        id: '087126561a934330b010bc2653605b29'
+                        key: {
+                            name: 'x_1311940_prism_rules'
                         }
                     },
                     {
@@ -326,6 +354,15 @@ declare global {
                         }
                     },
                     {
+                        table: 'sys_documentation'
+                        id: '2f6ba2837933474f88bc97e9032c41c9'
+                        key: {
+                            name: 'x_1311940_prism_rules'
+                            element: 'NULL'
+                            language: 'en'
+                        }
+                    },
+                    {
                         table: 'sys_dictionary'
                         id: '32940a43c63d4f07803ccb879e882638'
                         key: {
@@ -348,6 +385,15 @@ declare global {
                             }
                             element: '.begin_split'
                             position: '0'
+                        }
+                    },
+                    {
+                        table: 'sys_documentation'
+                        id: '370b79172eb34f3cadbf9354a32356f0'
+                        key: {
+                            name: 'x_1311940_prism_rules'
+                            element: 'endpoint'
+                            language: 'en'
                         }
                     },
                     {
@@ -787,6 +833,15 @@ declare global {
                         key: {
                             name: 'x_1311940_prism_transactions'
                             element: 'state'
+                            language: 'en'
+                        }
+                    },
+                    {
+                        table: 'sys_documentation'
+                        id: '7abefc415a1d42dab51c450757f50420'
+                        key: {
+                            name: 'x_1311940_prism_rules'
+                            element: 'rule_script'
                             language: 'en'
                         }
                     },
@@ -1241,6 +1296,13 @@ declare global {
                         }
                     },
                     {
+                        table: 'ua_table_licensing_config'
+                        id: 'cf818ea2fcee4a97bb19f21af11c913a'
+                        key: {
+                            name: 'x_1311940_prism_rules'
+                        }
+                    },
+                    {
                         table: 'sys_ui_element'
                         id: 'd0ae4a4d83b74714027aa6d0deaad32b'
                         deleted: true
@@ -1327,6 +1389,14 @@ declare global {
                             name: 'x_1311940_prism_field_maps'
                             element: 'local_field'
                             language: 'en'
+                        }
+                    },
+                    {
+                        table: 'sys_dictionary'
+                        id: 'e9f52ae1b9a548d69dec2ed78416e913'
+                        key: {
+                            name: 'x_1311940_prism_rules'
+                            element: 'endpoint'
                         }
                     },
                     {
