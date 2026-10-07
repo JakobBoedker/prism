@@ -62,6 +62,10 @@ declare global {
                         table: 'sys_app_module'
                         id: 'acad65a96bb04cf496cbf039efa4f84d'
                     }
+                    module_rules: {
+                        table: 'sys_app_module'
+                        id: '8a5954343ec64a069c18c5903683ac2a'
+                    }
                     module_transactions: {
                         table: 'sys_app_module'
                         id: 'f491ba30135342b79d0dd9b1270c0172'
@@ -111,6 +115,13 @@ declare global {
                     }
                 }
                 composite: [
+                    {
+                        table: 'sys_user_role'
+                        id: '000bc44616c54fb4a809b8cf21307ece'
+                        key: {
+                            name: 'x_1311940_prism.admin'
+                        }
+                    },
                     {
                         table: 'sys_dictionary'
                         id: '0320c4f3b7264a769a6f6c2e72be9787'

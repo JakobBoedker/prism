@@ -126,9 +126,13 @@ export const x_1311940_prism_rules = Table({
         rule_script: ScriptColumn({
             label: 'Rule script',
             default: '// "value" hold the script for checking the rule against the integration payload',
-            mandatory: true,
 
+        }),
+        local_field: StringColumn({
+            label: 'Local Field',
+        }),
+        external_path: StringColumn({
+            label: 'External Path',
         })
-
     }
 })
