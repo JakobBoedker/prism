@@ -28,6 +28,7 @@ export interface transactions {
 export interface endpoint_extra {
     sys_id: string
     root_table: string
+    root_path: string
     status: number
 }
 

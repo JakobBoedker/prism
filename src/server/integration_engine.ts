@@ -1,10 +1,10 @@
-import { GlideDateTime, GlideRecord } from "@servicenow/glide";
+nimport { GlideDateTime, GlideRecord } from "@servicenow/glide";
 import type { RESTAPIRequest, RESTAPIResponse } from '@servicenow/glide/sn_ws_int'
 import { gs } from '@servicenow/glide' 
 import type { field_maps, endpoint_extra, corrected_fields } from '../server/types'
 import { get } from '../server/tokenizer'
 
-
+// add transaction record to log table
 function addTransaction(endpointId: string, raw: string): string {
     // Get Time for request
     const gdt = new GlideDateTime();
@@ -17,7 +17,7 @@ function addTransaction(endpointId: string, raw: string): string {
     gr.setValue('state', 'Received');
     return gr.insert();
 }
-
+// get sys id from from endpoint table based on endpoint in api URI
 function getEndpointId(endpoint: string): endpoint_extra {
     const gr = new GlideRecord('x_1311940_prism_endpoint');
     gr.addQuery('name', endpoint);
@@ -26,16 +26,19 @@ function getEndpointId(endpoint: string): endpoint_extra {
         return {
             sys_id: '',
             root_table: '',
+            root_path: '',
             status: 404,
         };
     }
     return {
         sys_id: gr.getUniqueValue(),
         root_table: gr.getValue('root_table'),
+        root_path: gr.getValue('root_path'),
         status: 200,
     }
 }
-
+// get all field map records for that endpoint
+// which local fields map to external fields from the payload
 function getFieldMaps(endpoint: string): field_maps[] {
     const gr = new GlideRecord('x_1311940_prism_field_maps');
     gr.addQuery('endpoint', endpoint);
@@ -54,7 +57,21 @@ function getFieldMaps(endpoint: string): field_maps[] {
     }
     return mappings;
 }
+// find if there are rules that must match the inbound request
+function getRules(endpoint: string) {
 
+    
+}
+
+
+// check if there is a correlation set for the payload
+function checkCorrelation() {
+
+}
+
+
+
+//get the parsed value from the payload and assign that in a object to the local field
 function getValueFromPayload(fieldArray: field_maps[], parsedOjb: unknown): corrected_fields[] {
     const final_array: corrected_fields[] = [];
 
@@ -67,7 +84,8 @@ function getValueFromPayload(fieldArray: field_maps[], parsedOjb: unknown): corr
 
     return final_array;
 }
-
+// create a gliderecord based on the parsed values from getValueFromPayload function
+// based on the objects match the local_field with the parsed external field
 function createGlideRecord(table: string, field_values: corrected_fields[]): string {
     const gr = new GlideRecord(table);
     const maps = field_values;
@@ -83,7 +101,7 @@ function createGlideRecord(table: string, field_values: corrected_fields[]): str
     return gr.update();
 }
 
-
+// main function executes the inbound request with help from all the other functions
 export function processInbound(request: RESTAPIRequest, response: RESTAPIResponse){
 
     if (!gs.hasRole('x_1311940_prism.integration_engine')){
@@ -101,10 +119,10 @@ export function processInbound(request: RESTAPIRequest, response: RESTAPIRespons
     }
 
     const transactionId = addTransaction(endpointTableID.sys_id, raw);
-    console.log(transactionId);
+    gs.log(transactionId);
 
 
-    const parsedPayload = JSON.parse(raw);
+    const parsedPayload = get(JSON.parse(raw), endpointTableID.root_path);
     const findFieldMaps = getFieldMaps(endpointName);
     const getValuesFromPayload = getValueFromPayload(findFieldMaps, parsedPayload);
     const createQuery = createGlideRecord(endpointTableID.root_table, getValuesFromPayload)
