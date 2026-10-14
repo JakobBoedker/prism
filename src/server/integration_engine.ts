@@ -1,11 +1,11 @@
-nimport { GlideDateTime, GlideRecord } from "@servicenow/glide";
+import { GlideDateTime, GlideRecord } from "@servicenow/glide";
 import type { RESTAPIRequest, RESTAPIResponse } from '@servicenow/glide/sn_ws_int'
 import { gs } from '@servicenow/glide' 
 import type { field_maps, endpoint_extra, corrected_fields } from '../server/types'
 import { get } from '../server/tokenizer'
 
 // add transaction record to log table
-function addTransaction(endpointId: string, raw: string): string {
+function addTransaction(endpointId: string, raw: string): string | null {
     // Get Time for request
     const gdt = new GlideDateTime();
     // creates initial integration log.
@@ -86,7 +86,7 @@ function getValueFromPayload(fieldArray: field_maps[], parsedOjb: unknown): corr
 }
 // create a gliderecord based on the parsed values from getValueFromPayload function
 // based on the objects match the local_field with the parsed external field
-function createGlideRecord(table: string, field_values: corrected_fields[]): string {
+function createGlideRecord(table: string, field_values: corrected_fields[]): string | null {
     const gr = new GlideRecord(table);
     const maps = field_values;
 
@@ -119,7 +119,7 @@ export function processInbound(request: RESTAPIRequest, response: RESTAPIRespons
     }
 
     const transactionId = addTransaction(endpointTableID.sys_id, raw);
-    gs.log(transactionId);
+    gs.log(String(transactionId));
 
 
     const parsedPayload = get(JSON.parse(raw), endpointTableID.root_path);
