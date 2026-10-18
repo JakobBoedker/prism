@@ -28,7 +28,7 @@ function tokenizer(path: string): string[] {
 export function get(ojb: any, path: string): string {
     let cur = ojb;
     for ( const key of tokenizer(path) ){
-        if ( cur === null || typeof cur !== 'object') return undefined;
+        if ( cur === null || typeof cur !== 'object') return 'undefined';
         cur = ( cur as Record<string, unknown>)[key];
     }
     return cur;
