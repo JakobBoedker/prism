@@ -23,1070 +23,252 @@ declare global {
                     }
                     'app-category': {
                         table: 'sys_app_category'
-                        id: 'cd3a2745c6544935a0e31358b5d1b8a7'
+                        id: 'bcf7dbaa1844451fb39325c340e2419d'
                     }
                     bom_json: {
                         table: 'sys_module'
-                        id: '363e8aedcf0242dc95a2cb5717412697'
+                        id: 'd53b90ee0edb4548a5395a7f1fa675f1'
                     }
                     create: {
                         table: 'sys_ws_operation'
-                        id: 'b46e0688e5574581a5cdd59418603524'
-                    }
-                    header1: {
-                        table: 'sys_ws_header'
-                        id: '779526f22d5643ab835b0e0aa9eeaa0e'
-                        deleted: true
+                        id: '1dd886451579405e8e13464c05653fd6'
                     }
                     'integration-engine-restapi': {
                         table: 'sys_ws_definition'
-                        id: '17e8844379f84f1dad7f946bec574c3e'
+                        id: '23f351c797d940b29b7f5d02c44b4a65'
                     }
                     IntegrationEngine: {
                         table: 'sys_script_include'
-                        id: '5bbbdbde6ebc4782b87d86251014c18c'
+                        id: '1388ce785ceb46b598d2563a6c99c2f6'
                     }
                     'integraton-engine-rest-acl': {
                         table: 'sys_security_acl'
-                        id: '8fbe11f3c7f243f3967c21bf80142024'
+                        id: 'e42786b673c44f94ae241d95477ab45c'
                     }
                     JsonPath: {
                         table: 'sys_script_include'
-                        id: '29993d1f6eb64ba784590dbc31ccf292'
+                        id: '840d6bc7b05d46ee8c5ebd0be3398973'
                     }
                     module_endpoint: {
                         table: 'sys_app_module'
-                        id: 'bb02e609d6504571af6b6977430d00a7'
+                        id: '7755b8cfe1b44f31af72b4f449804b7b'
                     }
                     module_field_maps: {
                         table: 'sys_app_module'
-                        id: 'acad65a96bb04cf496cbf039efa4f84d'
+                        id: '6fac7b5800fb47c6a14059c281f2f299'
                     }
                     module_rules: {
                         table: 'sys_app_module'
-                        id: '8a5954343ec64a069c18c5903683ac2a'
+                        id: 'dea096f86049467ca559776749c9cde5'
                     }
                     module_transactions: {
                         table: 'sys_app_module'
-                        id: 'f491ba30135342b79d0dd9b1270c0172'
+                        id: '15ce85509d394760b8ef9020526d7954'
                     }
                     package_json: {
                         table: 'sys_module'
-                        id: '151d14f0ae1341929a2693b347a2db6d'
-                    }
-                    param1: {
-                        table: 'sys_ws_query_parameter'
-                        id: '7ba7ec0cccc84473a9fd9bcd7cce8ae7'
-                        deleted: true
+                        id: '5647733d004d4d7e8a8596e98e2ac8c9'
                     }
                     prism_applicaton_menu: {
                         table: 'sys_app_application'
-                        id: '4ac15988f947427986ad98136aa729d6'
-                    }
-                    src_server_handler_ts: {
-                        table: 'sys_module'
-                        id: 'd1bffbc22bf448e4b495dd1a86496528'
-                        deleted: true
+                        id: 'ebb40a16cda2429b96377f41671e4003'
                     }
                     src_server_integration_engine_ts: {
                         table: 'sys_module'
-                        id: 'c1a585e4599f41879e56087ebb557040'
-                    }
-                    src_server_jsonpath_ts: {
-                        table: 'sys_module'
-                        id: 'a6e1ec1528b440ee96877e6d61a6bb78'
-                        deleted: true
+                        id: '11e54eb208544bc49b4e68297a183e3a'
                     }
                     src_server_script_ts: {
                         table: 'sys_module'
-                        id: 'da0a1851f2104e51958925f60646e5ab'
+                        id: 'b79dcff4a5994e1eaf347dee6d2129f3'
                     }
                     src_server_tokenizer_ts: {
                         table: 'sys_module'
-                        id: '475a75381dce4e028ee0c214864dc126'
+                        id: 'd090353f209e48898138f82ae806d10f'
                     }
                     src_server_types_ts: {
                         table: 'sys_module'
-                        id: 'a3262e4f425241f0bf8af9b931c31087'
+                        id: 'e8facef74a564338b0f7d21406799fd2'
                     }
                     v1: {
                         table: 'sys_ws_version'
-                        id: 'd62784f1eca84486a0bbe4d3b7b115af'
+                        id: '5172950ffee640e5983eba55130989aa'
                     }
                 }
                 composite: [
                     {
-                        table: 'sys_user_role'
-                        id: '000bc44616c54fb4a809b8cf21307ece'
+                        table: 'sys_dictionary'
+                        id: '02724a1fb118489588f9c3e0c139df16'
                         key: {
-                            name: 'x_1311940_prism.admin'
+                            name: 'x_264938_prism_field_maps'
+                            element: 'external_path'
                         }
                     },
                     {
                         table: 'sys_dictionary'
-                        id: '0320c4f3b7264a769a6f6c2e72be9787'
+                        id: '02c1bd1c1181401cbfb2578335560568'
                         key: {
-                            name: 'x_1311940_prism_rules'
-                            element: 'NULL'
+                            name: 'x_264938_prism_transactions'
+                            element: 'target_sys_id'
+                        }
+                    },
+                    {
+                        table: 'sys_db_object'
+                        id: '04cfb43cb4a54900a15b87c1f4d11470'
+                        key: {
+                            name: 'x_264938_prism_endpoint'
                         }
                     },
                     {
                         table: 'sys_ui_element'
                         id: '04f1e6c5837b4714027aa6d0deaad390'
                         key: {
-                            sys_ui_section: {
-                                id: 'b7e1e6c5837b4714027aa6d0deaad34f'
-                                key: {
-                                    name: 'x_1311940_prism_field_maps'
-                                    caption: 'NULL'
-                                    view: 'Default view'
-                                    sys_domain: 'global'
-                                }
-                            }
+                            sys_ui_section: 'b7e1e6c5837b4714027aa6d0deaad34f'
                             element: '.end_split'
                             position: '6'
-                        }
-                    },
-                    {
-                        table: 'sys_documentation'
-                        id: '0791d851cfd6491fb6f9a69197a0be93'
-                        key: {
-                            name: 'x_1311940_prism_transactions'
-                            element: 'target_table'
-                            language: 'en'
-                        }
-                    },
-                    {
-                        table: 'sys_dictionary'
-                        id: '08527f630d0c46f097ba3c581942503c'
-                        key: {
-                            name: 'x_1311940_prism_rules'
-                            element: 'rule_script'
-                        }
-                    },
-                    {
-                        table: 'sys_db_object'
-                        id: '087126561a934330b010bc2653605b29'
-                        key: {
-                            name: 'x_1311940_prism_rules'
                         }
                     },
                     {
                         table: 'sys_ui_element'
                         id: '08f1e6c5837b4714027aa6d0deaad38e'
                         key: {
-                            sys_ui_section: {
-                                id: 'b7e1e6c5837b4714027aa6d0deaad34f'
-                                key: {
-                                    name: 'x_1311940_prism_field_maps'
-                                    caption: 'NULL'
-                                    view: 'Default view'
-                                    sys_domain: 'global'
-                                }
-                            }
+                            sys_ui_section: 'b7e1e6c5837b4714027aa6d0deaad34f'
                             element: 'local_field'
                             position: '4'
                         }
                     },
                     {
-                        table: 'sys_dictionary'
-                        id: '0946b6495dc747a18c47cd273afb7ace'
+                        table: 'sys_db_object'
+                        id: '0b95e2e7f0994a11b4804faa895b587c'
                         key: {
-                            name: 'x_1311940_prism_transactions'
-                            element: 'NULL'
-                        }
-                    },
-                    {
-                        table: 'sys_choice'
-                        id: '0f4196b088df4e398f5934a87f23b1f6'
-                        key: {
-                            name: 'x_1311940_prism_transactions'
-                            element: 'state'
-                            value: 'failed'
-                            language: 'en'
-                            dependent_value: 'NULL'
-                        }
-                    },
-                    {
-                        table: 'sys_ui_element'
-                        id: '106e5ffc832f8390027aa6d0deaad3bb'
-                        deleted: true
-                        key: {
-                            sys_ui_section: {
-                                id: '886e5ffc832f8390027aa6d0deaad380'
-                                key: {
-                                    name: 'x_1311940_prism_endpoint'
-                                    caption: 'NULL'
-                                    view: 'Default view'
-                                    sys_domain: 'global'
-                                }
-                            }
-                            element: 'active'
-                            position: '2'
-                        }
-                    },
-                    {
-                        table: 'sys_dictionary'
-                        id: '1111f1fe77ec43568ebd5f87016472da'
-                        key: {
-                            name: 'x_1311940_prism_endpoint'
-                            element: 'direction'
+                            name: 'x_264938_prism_transactions'
                         }
                     },
                     {
                         table: 'sys_documentation'
-                        id: '137db9bc59df42619628b72544d3beeb'
+                        id: '0bbdd597e9fd4c41aa3f8fc5ebd225aa'
                         key: {
-                            name: 'x_1311940_prism_endpoint'
-                            element: 'name'
-                            language: 'en'
-                        }
-                    },
-                    {
-                        table: 'sys_dictionary'
-                        id: '13fb40fd4b994d76926519a0bd0e99a4'
-                        key: {
-                            name: 'x_1311940_prism_transactions'
-                            element: 'response_body'
-                        }
-                    },
-                    {
-                        table: 'sys_dictionary'
-                        id: '164df883a3264cc89930371d2217dcd4'
-                        key: {
-                            name: 'x_1311940_prism_transactions'
-                            element: 'state'
-                        }
-                    },
-                    {
-                        table: 'sys_dictionary'
-                        id: '16545d53089947c883fe0ced39b157b6'
-                        key: {
-                            name: 'x_1311940_prism_field_maps'
-                            element: 'order'
-                        }
-                    },
-                    {
-                        table: 'sys_ui_element'
-                        id: '186e5ffc832f8390027aa6d0deaad3be'
-                        deleted: true
-                        key: {
-                            sys_ui_section: {
-                                id: '886e5ffc832f8390027aa6d0deaad380'
-                                key: {
-                                    name: 'x_1311940_prism_endpoint'
-                                    caption: 'NULL'
-                                    view: 'Default view'
-                                    sys_domain: 'global'
-                                }
-                            }
+                            name: 'x_264938_prism_endpoint'
                             element: 'root_path'
-                            position: '6'
-                        }
-                    },
-                    {
-                        table: 'sys_dictionary'
-                        id: '198b5320370d4432933091fb8212dd52'
-                        key: {
-                            name: 'x_1311940_prism_endpoint'
-                            element: 'integration_account'
-                        }
-                    },
-                    {
-                        table: 'sys_documentation'
-                        id: '1b34c19327184288893209a1bf3ede3e'
-                        key: {
-                            name: 'x_1311940_prism_endpoint'
-                            element: 'local_table'
                             language: 'en'
                         }
                     },
                     {
-                        table: 'sys_ui_element'
-                        id: '1c6e5ffc832f8390027aa6d0deaad3bc'
-                        deleted: true
+                        table: 'sys_documentation'
+                        id: '0bc76272a98b4c2cbf95e79b614dcc4b'
                         key: {
-                            sys_ui_section: {
-                                id: '886e5ffc832f8390027aa6d0deaad380'
-                                key: {
-                                    name: 'x_1311940_prism_endpoint'
-                                    caption: 'NULL'
-                                    view: 'Default view'
-                                    sys_domain: 'global'
-                                }
-                            }
-                            element: '.split'
-                            position: '4'
-                        }
-                    },
-                    {
-                        table: 'sys_dictionary'
-                        id: '1dd017b794dc44f685ae9fd113a95a71'
-                        key: {
-                            name: 'x_1311940_prism_rules'
-                            element: 'external_path'
-                        }
-                    },
-                    {
-                        table: 'sys_dictionary'
-                        id: '26374ebcde9a456a888ec249202b1d87'
-                        key: {
-                            name: 'x_1311940_prism_transactions'
+                            name: 'x_264938_prism_transactions'
                             element: 'target_table'
+                            language: 'en'
                         }
                     },
                     {
-                        table: 'sys_choice'
-                        id: '27788a16c84a46b7b715380d8b49e9d2'
+                        table: 'sys_documentation'
+                        id: '1624ad5b2222460b9a0bd551e4bad74a'
                         key: {
-                            name: 'x_1311940_prism_endpoint'
-                            element: 'direction'
-                            value: 'both'
+                            name: 'x_264938_prism_transactions'
+                            element: 'request_body'
                             language: 'en'
-                            dependent_value: 'NULL'
                         }
                     },
                     {
                         table: 'sys_dictionary'
-                        id: '29b68e2895ec48748ab930f3303532c3'
+                        id: '17f488cf83fe4f7e98d8b4543ee840de'
                         key: {
-                            name: 'x_1311940_prism_field_maps'
-                            element: 'NULL'
+                            name: 'x_264938_prism_endpoint'
+                            element: 'active'
                         }
                     },
                     {
                         table: 'sys_documentation'
-                        id: '2bab5fa2e40d4c689c77a586d8be52d7'
+                        id: '18cac6a36f2e461c973e3dc227b4fdf4'
                         key: {
-                            name: 'x_1311940_prism_transactions'
+                            name: 'x_264938_prism_field_maps'
                             element: 'NULL'
                             language: 'en'
                         }
                     },
                     {
                         table: 'sys_documentation'
-                        id: '2ca213084cad451c842306b1b2a7e8b7'
+                        id: '195275f535dc4bd58356f14ae8c95af9'
                         key: {
-                            name: 'x_1311940_prism_transactions'
+                            name: 'x_264938_prism_rules'
                             element: 'endpoint'
                             language: 'en'
                         }
                     },
                     {
                         table: 'sys_documentation'
-                        id: '2f6ba2837933474f88bc97e9032c41c9'
+                        id: '19a45f4b2f4b4497934bab71e7e19691'
                         key: {
-                            name: 'x_1311940_prism_rules'
+                            name: 'x_264938_prism_endpoint'
+                            element: 'local_table'
+                            language: 'en'
+                        }
+                    },
+                    {
+                        table: 'sys_user_role'
+                        id: '19bcc84c3c6348e2bcbe869cdeadca77'
+                        key: {
+                            name: 'x_264938_prism.integration_engine'
+                        }
+                    },
+                    {
+                        table: 'sys_documentation'
+                        id: '246fb65abef04f27b8f6c4ec190f2417'
+                        key: {
+                            name: 'x_264938_prism_endpoint'
                             element: 'NULL'
                             language: 'en'
                         }
                     },
                     {
                         table: 'sys_dictionary'
-                        id: '32940a43c63d4f07803ccb879e882638'
+                        id: '297a4655a8c2416fb15ff26984e3d2d3'
                         key: {
-                            name: 'x_1311940_prism_field_maps'
-                            element: 'external_path'
+                            name: 'x_264938_prism_transactions'
+                            element: 'received_at'
+                        }
+                    },
+                    {
+                        table: 'sys_documentation'
+                        id: '32cc167aa9924aa0b1eb02a48d73a5f5'
+                        key: {
+                            name: 'x_264938_prism_transactions'
+                            element: 'response_body'
+                            language: 'en'
                         }
                     },
                     {
                         table: 'sys_ui_element'
                         id: '33e1e6c5837b4714027aa6d0deaad38b'
                         key: {
-                            sys_ui_section: {
-                                id: 'b7e1e6c5837b4714027aa6d0deaad34f'
-                                key: {
-                                    name: 'x_1311940_prism_field_maps'
-                                    caption: 'NULL'
-                                    view: 'Default view'
-                                    sys_domain: 'global'
-                                }
-                            }
+                            sys_ui_section: 'b7e1e6c5837b4714027aa6d0deaad34f'
                             element: '.begin_split'
                             position: '0'
                         }
                     },
                     {
                         table: 'sys_documentation'
-                        id: '370b79172eb34f3cadbf9354a32356f0'
+                        id: '34ef17da6bee44a982da89b1d71e676d'
                         key: {
-                            name: 'x_1311940_prism_rules'
-                            element: 'endpoint'
-                            language: 'en'
-                        }
-                    },
-                    {
-                        table: 'sys_documentation'
-                        id: '376dfa05e19d48e1b6e62021acafcf8e'
-                        key: {
-                            name: 'x_1311940_prism_transactions'
-                            element: 'error_message'
-                            language: 'en'
-                        }
-                    },
-                    {
-                        table: 'sys_ui_element'
-                        id: '39a0e605837b4714027aa6d0deaad38c'
-                        deleted: true
-                        key: {
-                            sys_ui_section: {
-                                id: '886e5ffc832f8390027aa6d0deaad380'
-                                key: {
-                                    name: 'x_1311940_prism_endpoint'
-                                    caption: 'NULL'
-                                    view: 'Default view'
-                                    sys_domain: 'global'
-                                }
-                            }
+                            name: 'x_264938_prism_endpoint'
                             element: 'integration_account'
-                            position: '3'
-                        }
-                    },
-                    {
-                        table: 'sys_ui_element'
-                        id: '3da0e605837b4714027aa6d0deaad38a'
-                        deleted: true
-                        key: {
-                            sys_ui_section: {
-                                id: '886e5ffc832f8390027aa6d0deaad380'
-                                key: {
-                                    name: 'x_1311940_prism_endpoint'
-                                    caption: 'NULL'
-                                    view: 'Default view'
-                                    sys_domain: 'global'
-                                }
-                            }
-                            element: 'active'
-                            position: '1'
-                        }
-                    },
-                    {
-                        table: 'sys_dictionary'
-                        id: '3f871c63cf994a69b70a77aa01135f97'
-                        key: {
-                            name: 'x_1311940_prism_field_maps'
-                            element: 'local_field'
-                        }
-                    },
-                    {
-                        table: 'sys_ui_element'
-                        id: '3fe1e6c5837b4714027aa6d0deaad38c'
-                        key: {
-                            sys_ui_section: {
-                                id: 'b7e1e6c5837b4714027aa6d0deaad34f'
-                                key: {
-                                    name: 'x_1311940_prism_field_maps'
-                                    caption: 'NULL'
-                                    view: 'Default view'
-                                    sys_domain: 'global'
-                                }
-                            }
-                            element: 'endpoint'
-                            position: '2'
-                        }
-                    },
-                    {
-                        table: 'sys_ui_element'
-                        id: '4144bdbe832b83d0027aa6d0deaad373'
-                        key: {
-                            sys_ui_section: {
-                                id: '8d44bdbe832b83d0027aa6d0deaad361'
-                                key: {
-                                    name: 'x_1311940_prism_transactions'
-                                    caption: 'NULL'
-                                    view: 'Default view'
-                                    sys_domain: 'global'
-                                }
-                            }
-                            element: 'request_body'
-                            position: '7'
-                        }
-                    },
-                    {
-                        table: 'sys_choice_set'
-                        id: '41d5cc4e9846496e96af3c391bdcecea'
-                        key: {
-                            name: 'x_1311940_prism_endpoint'
-                            element: 'direction'
-                        }
-                    },
-                    {
-                        table: 'ua_table_licensing_config'
-                        id: '43177db9b4284f93a5aa7213b02038c9'
-                        key: {
-                            name: 'x_1311940_prism_endpoint'
-                        }
-                    },
-                    {
-                        table: 'ua_table_licensing_config'
-                        id: '437a34c3ccbd4d15acbd45682713149d'
-                        key: {
-                            name: 'x_1311940_prism_field_maps'
-                        }
-                    },
-                    {
-                        table: 'sys_ui_element'
-                        id: '4544bdbe832b83d0027aa6d0deaad36c'
-                        key: {
-                            sys_ui_section: {
-                                id: '8d44bdbe832b83d0027aa6d0deaad361'
-                                key: {
-                                    name: 'x_1311940_prism_transactions'
-                                    caption: 'NULL'
-                                    view: 'Default view'
-                                    sys_domain: 'global'
-                                }
-                            }
-                            element: '.begin_split'
-                            position: '0'
-                        }
-                    },
-                    {
-                        table: 'sys_ui_element'
-                        id: '4544bdbe832b83d0027aa6d0deaad371'
-                        key: {
-                            sys_ui_section: {
-                                id: '8d44bdbe832b83d0027aa6d0deaad361'
-                                key: {
-                                    name: 'x_1311940_prism_transactions'
-                                    caption: 'NULL'
-                                    view: 'Default view'
-                                    sys_domain: 'global'
-                                }
-                            }
-                            element: 'target_sys_id'
-                            position: '5'
-                        }
-                    },
-                    {
-                        table: 'sys_documentation'
-                        id: '4648624fa8414574a9d34d7c3135af48'
-                        key: {
-                            name: 'x_1311940_prism_field_maps'
-                            element: 'external_path'
                             language: 'en'
                         }
                     },
                     {
                         table: 'sys_dictionary'
-                        id: '470a077e82144d7897cc42f9e79f6239'
+                        id: '3b9ef4915149415db1b09c0c6e87e7c5'
                         key: {
-                            name: 'x_1311940_prism_transactions'
-                            element: 'endpoint'
-                        }
-                    },
-                    {
-                        table: 'sys_documentation'
-                        id: '474ec3ef9e7446d49cbee09a0e207698'
-                        key: {
-                            name: 'x_1311940_prism_endpoint'
-                            element: 'NULL'
-                            language: 'en'
-                        }
-                    },
-                    {
-                        table: 'sys_ui_element'
-                        id: '4944bdbe832b83d0027aa6d0deaad36f'
-                        key: {
-                            sys_ui_section: {
-                                id: '8d44bdbe832b83d0027aa6d0deaad361'
-                                key: {
-                                    name: 'x_1311940_prism_transactions'
-                                    caption: 'NULL'
-                                    view: 'Default view'
-                                    sys_domain: 'global'
-                                }
-                            }
-                            element: 'response_body'
-                            position: '3'
-                        }
-                    },
-                    {
-                        table: 'sys_ui_element'
-                        id: '4944bdbe832b83d0027aa6d0deaad376'
-                        key: {
-                            sys_ui_section: {
-                                id: '8d44bdbe832b83d0027aa6d0deaad361'
-                                key: {
-                                    name: 'x_1311940_prism_transactions'
-                                    caption: 'NULL'
-                                    view: 'Default view'
-                                    sys_domain: 'global'
-                                }
-                            }
-                            element: '.end_split'
-                            position: '11'
-                        }
-                    },
-                    {
-                        table: 'sys_ui_element'
-                        id: '4c6e5ffc832f8390027aa6d0deaad3b8'
-                        deleted: true
-                        key: {
-                            sys_ui_section: {
-                                id: '886e5ffc832f8390027aa6d0deaad380'
-                                key: {
-                                    name: 'x_1311940_prism_endpoint'
-                                    caption: 'NULL'
-                                    view: 'Default view'
-                                    sys_domain: 'global'
-                                }
-                            }
-                            element: '.begin_split'
-                            position: '0'
-                        }
-                    },
-                    {
-                        table: 'sys_ui_element'
-                        id: '4d44bdbe832b83d0027aa6d0deaad36d'
-                        key: {
-                            sys_ui_section: {
-                                id: '8d44bdbe832b83d0027aa6d0deaad361'
-                                key: {
-                                    name: 'x_1311940_prism_transactions'
-                                    caption: 'NULL'
-                                    view: 'Default view'
-                                    sys_domain: 'global'
-                                }
-                            }
-                            element: 'endpoint'
-                            position: '1'
-                        }
-                    },
-                    {
-                        table: 'sys_ui_element'
-                        id: '4d44bdbe832b83d0027aa6d0deaad374'
-                        key: {
-                            sys_ui_section: {
-                                id: '8d44bdbe832b83d0027aa6d0deaad361'
-                                key: {
-                                    name: 'x_1311940_prism_transactions'
-                                    caption: 'NULL'
-                                    view: 'Default view'
-                                    sys_domain: 'global'
-                                }
-                            }
-                            element: 'state'
-                            position: '9'
-                        }
-                    },
-                    {
-                        table: 'sys_dictionary'
-                        id: '4ea1d522437741508335ac46e9497a1e'
-                        key: {
-                            name: 'x_1311940_prism_transactions'
-                            element: 'response_status'
-                        }
-                    },
-                    {
-                        table: 'sys_ws_query_parameter_map'
-                        id: '51f4773c7381434997424ed6a552a815'
-                        deleted: true
-                        key: {
-                            web_service_operation: 'b46e0688e5574581a5cdd59418603524'
-                            web_service_query_parameter: '7ba7ec0cccc84473a9fd9bcd7cce8ae7'
-                        }
-                    },
-                    {
-                        table: 'sys_documentation'
-                        id: '52f14ad5e8d44161b246359b0b99bd5f'
-                        key: {
-                            name: 'x_1311940_prism_rules'
-                            element: 'local_field'
-                            language: 'en'
-                        }
-                    },
-                    {
-                        table: 'sys_ui_element'
-                        id: '548e064d83b74714027aa6d0deaad377'
-                        deleted: true
-                        key: {
-                            sys_ui_section: {
-                                id: '886e5ffc832f8390027aa6d0deaad380'
-                                key: {
-                                    name: 'x_1311940_prism_endpoint'
-                                    caption: 'NULL'
-                                    view: 'Default view'
-                                    sys_domain: 'global'
-                                }
-                            }
-                            element: 'integration_account'
-                            position: '7'
+                            name: 'x_264938_prism_endpoint'
+                            element: 'root_path'
                         }
                     },
                     {
                         table: 'sys_choice'
-                        id: '54bb39b0508e4371b6ede1b33be73874'
+                        id: '3c240e7b597c419480a53ab9a10bb3f4'
                         key: {
-                            name: 'x_1311940_prism_endpoint'
-                            element: 'direction'
-                            value: 'outbound'
-                            language: 'en'
-                            dependent_value: 'NULL'
-                        }
-                    },
-                    {
-                        table: 'sys_dictionary'
-                        id: '56323a2448454829b40eec9ce91e1f25'
-                        key: {
-                            name: 'x_1311940_prism_rules'
-                            element: 'local_field'
-                        }
-                    },
-                    {
-                        table: 'sys_documentation'
-                        id: '5827be243ca74eafb6326f01736330c5'
-                        key: {
-                            name: 'x_1311940_prism_transactions'
-                            element: 'response_body'
-                            language: 'en'
-                        }
-                    },
-                    {
-                        table: 'sys_ui_element'
-                        id: '58ae4a4d83b74714027aa6d0deaad347'
-                        deleted: true
-                        key: {
-                            sys_ui_section: {
-                                id: '886e5ffc832f8390027aa6d0deaad380'
-                                key: {
-                                    name: 'x_1311940_prism_endpoint'
-                                    caption: 'NULL'
-                                    view: 'Default view'
-                                    sys_domain: 'global'
-                                }
-                            }
-                            element: '.end_split'
-                            position: '8'
-                        }
-                    },
-                    {
-                        table: 'sys_documentation'
-                        id: '5b0d7f77ae4a4f9badc2eaea2241784d'
-                        key: {
-                            name: 'x_1311940_prism_endpoint'
-                            element: 'active'
-                            language: 'en'
-                        }
-                    },
-                    {
-                        table: 'sys_ui_element'
-                        id: '5cae4a4d83b74714027aa6d0deaad345'
-                        deleted: true
-                        key: {
-                            sys_ui_section: {
-                                id: '886e5ffc832f8390027aa6d0deaad380'
-                                key: {
-                                    name: 'x_1311940_prism_endpoint'
-                                    caption: 'NULL'
-                                    view: 'Default view'
-                                    sys_domain: 'global'
-                                }
-                            }
-                            element: 'local_table'
-                            position: '6'
-                        }
-                    },
-                    {
-                        table: 'sys_documentation'
-                        id: '5cb1efa03f93444bab0f0c87f9fec466'
-                        key: {
-                            name: 'x_1311940_prism_endpoint'
-                            element: 'direction'
-                            language: 'en'
-                        }
-                    },
-                    {
-                        table: 'sys_user_role'
-                        id: '5d843d7828e94aaf830c7219c353fa70'
-                        key: {
-                            name: 'x_1311940_prism.integration_engine'
-                        }
-                    },
-                    {
-                        table: 'sys_documentation'
-                        id: '61d5d018e1dd4f0994205d49af002b3a'
-                        key: {
-                            name: 'x_1311940_prism_field_maps'
-                            element: 'endpoint'
-                            language: 'en'
-                        }
-                    },
-                    {
-                        table: 'sys_dictionary'
-                        id: '67d5937b73a046aea85812ddd9de1fd6'
-                        key: {
-                            name: 'x_1311940_prism_transactions'
-                            element: 'target_sys_id'
-                        }
-                    },
-                    {
-                        table: 'sys_documentation'
-                        id: '6832ce06871441d7b96e2303ce6ab9f5'
-                        key: {
-                            name: 'x_1311940_prism_transactions'
-                            element: 'response_status'
-                            language: 'en'
-                        }
-                    },
-                    {
-                        table: 'sys_documentation'
-                        id: '6884455c4a7940a29fb687b10b89cbdb'
-                        key: {
-                            name: 'x_1311940_prism_transactions'
-                            element: 'request_body'
-                            language: 'en'
-                        }
-                    },
-                    {
-                        table: 'sys_ui_element'
-                        id: '71a4db9583730b14027aa6d0deaad360'
-                        key: {
-                            sys_ui_section: {
-                                id: 'e5a45b9583730b14027aa6d0deaad3e0'
-                                key: {
-                                    name: 'x_1311940_prism_rules'
-                                    caption: 'NULL'
-                                    view: 'Default view'
-                                    sys_domain: 'global'
-                                }
-                            }
-                            element: 'endpoint'
-                            position: '0'
-                        }
-                    },
-                    {
-                        table: 'sys_dictionary'
-                        id: '723e4d358894425fb089e8d3edbaf5c0'
-                        key: {
-                            name: 'x_1311940_prism_endpoint'
-                            element: 'active'
-                        }
-                    },
-                    {
-                        table: 'sys_ui_element'
-                        id: '76eb5add837bc714027aa6d0deaad366'
-                        key: {
-                            sys_ui_section: {
-                                id: '886e5ffc832f8390027aa6d0deaad380'
-                                key: {
-                                    name: 'x_1311940_prism_endpoint'
-                                    caption: 'NULL'
-                                    view: 'Default view'
-                                    sys_domain: 'global'
-                                }
-                            }
-                            element: 'direction'
-                            position: '5'
-                        }
-                    },
-                    {
-                        table: 'sys_documentation'
-                        id: '779765fa6b454da2bf3b8ec6373fd284'
-                        key: {
-                            name: 'x_1311940_prism_transactions'
-                            element: 'state'
-                            language: 'en'
-                        }
-                    },
-                    {
-                        table: 'sys_ui_element'
-                        id: '79a4db9583730b14027aa6d0deaad361'
-                        key: {
-                            sys_ui_section: {
-                                id: 'e5a45b9583730b14027aa6d0deaad3e0'
-                                key: {
-                                    name: 'x_1311940_prism_rules'
-                                    caption: 'NULL'
-                                    view: 'Default view'
-                                    sys_domain: 'global'
-                                }
-                            }
-                            element: 'rule_script'
-                            position: '1'
-                        }
-                    },
-                    {
-                        table: 'sys_documentation'
-                        id: '7abefc415a1d42dab51c450757f50420'
-                        key: {
-                            name: 'x_1311940_prism_rules'
-                            element: 'rule_script'
-                            language: 'en'
-                        }
-                    },
-                    {
-                        table: 'sys_ui_element'
-                        id: '7aeb5add837bc714027aa6d0deaad364'
-                        key: {
-                            sys_ui_section: {
-                                id: '886e5ffc832f8390027aa6d0deaad380'
-                                key: {
-                                    name: 'x_1311940_prism_endpoint'
-                                    caption: 'NULL'
-                                    view: 'Default view'
-                                    sys_domain: 'global'
-                                }
-                            }
-                            element: 'active'
-                            position: '3'
-                        }
-                    },
-                    {
-                        table: 'sys_ui_element'
-                        id: '7eeb5add837bc714027aa6d0deaad362'
-                        key: {
-                            sys_ui_section: {
-                                id: '886e5ffc832f8390027aa6d0deaad380'
-                                key: {
-                                    name: 'x_1311940_prism_endpoint'
-                                    caption: 'NULL'
-                                    view: 'Default view'
-                                    sys_domain: 'global'
-                                }
-                            }
-                            element: 'integration_account'
-                            position: '1'
-                        }
-                    },
-                    {
-                        table: 'sys_db_object'
-                        id: '8107d53cded24ee080fe4bb5e7e8ad2c'
-                        key: {
-                            name: 'x_1311940_prism_field_maps'
-                        }
-                    },
-                    {
-                        table: 'sys_ui_element'
-                        id: '84f1e6c5837b4714027aa6d0deaad38f'
-                        key: {
-                            sys_ui_section: {
-                                id: 'b7e1e6c5837b4714027aa6d0deaad34f'
-                                key: {
-                                    name: 'x_1311940_prism_field_maps'
-                                    caption: 'NULL'
-                                    view: 'Default view'
-                                    sys_domain: 'global'
-                                }
-                            }
-                            element: 'order'
-                            position: '5'
-                        }
-                    },
-                    {
-                        table: 'sys_ui_section'
-                        id: '886e5ffc832f8390027aa6d0deaad380'
-                        key: {
-                            name: 'x_1311940_prism_endpoint'
-                            caption: 'NULL'
-                            view: {
-                                id: 'Default view'
-                                key: {
-                                    name: 'NULL'
-                                }
-                            }
-                            sys_domain: 'global'
-                        }
-                    },
-                    {
-                        table: 'sys_ui_section'
-                        id: '8d44bdbe832b83d0027aa6d0deaad361'
-                        key: {
-                            name: 'x_1311940_prism_transactions'
-                            caption: 'NULL'
-                            view: {
-                                id: 'Default view'
-                                key: {
-                                    name: 'NULL'
-                                }
-                            }
-                            sys_domain: 'global'
-                        }
-                    },
-                    {
-                        table: 'sys_ui_element'
-                        id: '906e5ffc832f8390027aa6d0deaad3ba'
-                        deleted: true
-                        key: {
-                            sys_ui_section: {
-                                id: '886e5ffc832f8390027aa6d0deaad380'
-                                key: {
-                                    name: 'x_1311940_prism_endpoint'
-                                    caption: 'NULL'
-                                    view: 'Default view'
-                                    sys_domain: 'global'
-                                }
-                            }
-                            element: 'name'
-                            position: '1'
-                        }
-                    },
-                    {
-                        table: 'sys_dictionary'
-                        id: '93d26cf220184f69850462b9ae290881'
-                        key: {
-                            name: 'x_1311940_prism_transactions'
-                            element: 'error_message'
-                        }
-                    },
-                    {
-                        table: 'sys_ui_element'
-                        id: '946e5ffc832f8390027aa6d0deaad3bf'
-                        deleted: true
-                        key: {
-                            sys_ui_section: {
-                                id: '886e5ffc832f8390027aa6d0deaad380'
-                                key: {
-                                    name: 'x_1311940_prism_endpoint'
-                                    caption: 'NULL'
-                                    view: 'Default view'
-                                    sys_domain: 'global'
-                                }
-                            }
-                            element: '.end_split'
-                            position: '7'
-                        }
-                    },
-                    {
-                        table: 'sys_documentation'
-                        id: '9851df3e2c404138a7b1ce78c5245b75'
-                        key: {
-                            name: 'x_1311940_prism_rules'
-                            element: 'external_path'
-                            language: 'en'
-                        }
-                    },
-                    {
-                        table: 'sys_ui_element'
-                        id: '986e5ffc832f8390027aa6d0deaad3bd'
-                        deleted: true
-                        key: {
-                            sys_ui_section: {
-                                id: '886e5ffc832f8390027aa6d0deaad380'
-                                key: {
-                                    name: 'x_1311940_prism_endpoint'
-                                    caption: 'NULL'
-                                    view: 'Default view'
-                                    sys_domain: 'global'
-                                }
-                            }
-                            element: 'local_table'
-                            position: '5'
-                        }
-                    },
-                    {
-                        table: 'sys_dictionary'
-                        id: '9b0d607f68da4c778670c20df5734700'
-                        key: {
-                            name: 'x_1311940_prism_endpoint'
-                            element: 'local_table'
-                        }
-                    },
-                    {
-                        table: 'sys_choice'
-                        id: '9b30870c74e44d7290f70778cba734be'
-                        key: {
-                            name: 'x_1311940_prism_endpoint'
+                            name: 'x_264938_prism_endpoint'
                             element: 'direction'
                             value: 'inbound'
                             language: 'en'
@@ -1095,77 +277,301 @@ declare global {
                     },
                     {
                         table: 'sys_ui_element'
-                        id: '9c6e5ffc832f8390027aa6d0deaad3bb'
-                        deleted: true
+                        id: '3fe1e6c5837b4714027aa6d0deaad38c'
                         key: {
-                            sys_ui_section: {
-                                id: '886e5ffc832f8390027aa6d0deaad380'
-                                key: {
-                                    name: 'x_1311940_prism_endpoint'
-                                    caption: 'NULL'
-                                    view: 'Default view'
-                                    sys_domain: 'global'
-                                }
-                            }
-                            element: 'direction'
-                            position: '3'
+                            sys_ui_section: 'b7e1e6c5837b4714027aa6d0deaad34f'
+                            element: 'endpoint'
+                            position: '2'
                         }
                     },
                     {
-                        table: 'ua_table_licensing_config'
-                        id: 'a01418d58a994c098e6fa828d76848ab'
+                        table: 'sys_choice_set'
+                        id: '40eddd6e0a0c446ab33c50f4875cfff7'
                         key: {
-                            name: 'x_1311940_prism_transactions'
+                            name: 'x_264938_prism_transactions'
+                            element: 'state'
+                        }
+                    },
+                    {
+                        table: 'sys_ui_element'
+                        id: '4144bdbe832b83d0027aa6d0deaad373'
+                        key: {
+                            sys_ui_section: '8d44bdbe832b83d0027aa6d0deaad361'
+                            element: 'request_body'
+                            position: '7'
                         }
                     },
                     {
                         table: 'sys_dictionary'
-                        id: 'a135ca3b08ff478c86ea983bcbfcbb19'
+                        id: '42ee01e3a5a4427abd03643cc0738d4b'
                         key: {
-                            name: 'x_1311940_prism_transactions'
-                            element: 'received_at'
+                            name: 'x_264938_prism_transactions'
+                            element: 'request_body'
+                        }
+                    },
+                    {
+                        table: 'sys_ui_element'
+                        id: '4544bdbe832b83d0027aa6d0deaad36c'
+                        key: {
+                            sys_ui_section: '8d44bdbe832b83d0027aa6d0deaad361'
+                            element: '.begin_split'
+                            position: '0'
+                        }
+                    },
+                    {
+                        table: 'sys_ui_element'
+                        id: '4544bdbe832b83d0027aa6d0deaad371'
+                        key: {
+                            sys_ui_section: '8d44bdbe832b83d0027aa6d0deaad361'
+                            element: 'target_sys_id'
+                            position: '5'
+                        }
+                    },
+                    {
+                        table: 'sys_ui_element'
+                        id: '4944bdbe832b83d0027aa6d0deaad36f'
+                        key: {
+                            sys_ui_section: '8d44bdbe832b83d0027aa6d0deaad361'
+                            element: 'response_body'
+                            position: '3'
+                        }
+                    },
+                    {
+                        table: 'sys_ui_element'
+                        id: '4944bdbe832b83d0027aa6d0deaad376'
+                        key: {
+                            sys_ui_section: '8d44bdbe832b83d0027aa6d0deaad361'
+                            element: '.end_split'
+                            position: '11'
+                        }
+                    },
+                    {
+                        table: 'sys_dictionary'
+                        id: '4ba3bbc9aa7f4ef2b5a29849b0434f67'
+                        key: {
+                            name: 'x_264938_prism_endpoint'
+                            element: 'integration_account'
+                        }
+                    },
+                    {
+                        table: 'sys_ui_element'
+                        id: '4d44bdbe832b83d0027aa6d0deaad36d'
+                        key: {
+                            sys_ui_section: '8d44bdbe832b83d0027aa6d0deaad361'
+                            element: 'endpoint'
+                            position: '1'
+                        }
+                    },
+                    {
+                        table: 'sys_ui_element'
+                        id: '4d44bdbe832b83d0027aa6d0deaad374'
+                        key: {
+                            sys_ui_section: '8d44bdbe832b83d0027aa6d0deaad361'
+                            element: 'state'
+                            position: '9'
+                        }
+                    },
+                    {
+                        table: 'sys_dictionary'
+                        id: '4dfa0a58751e4b09a23c6b3ebbea738e'
+                        key: {
+                            name: 'x_264938_prism_rules'
+                            element: 'NULL'
+                        }
+                    },
+                    {
+                        table: 'sys_db_object'
+                        id: '5012f9a4b0d2466aa825ac9cc93cec28'
+                        key: {
+                            name: 'x_264938_prism_rules'
+                        }
+                    },
+                    {
+                        table: 'ua_table_licensing_config'
+                        id: '50167d976a8c4e13b359e8b2ad7c7750'
+                        key: {
+                            name: 'x_264938_prism_field_maps'
+                        }
+                    },
+                    {
+                        table: 'sys_dictionary'
+                        id: '51489a8cef21415e873c1adf53a2be94'
+                        key: {
+                            name: 'x_264938_prism_rules'
+                            element: 'rule_script'
+                        }
+                    },
+                    {
+                        table: 'sys_dictionary'
+                        id: '53e88fd0a73a4e92b9df64887511110f'
+                        key: {
+                            name: 'x_264938_prism_endpoint'
+                            element: 'NULL'
+                        }
+                    },
+                    {
+                        table: 'sys_dictionary'
+                        id: '5f8e001eb55045848982a5d7d149750e'
+                        key: {
+                            name: 'x_264938_prism_field_maps'
+                            element: 'endpoint'
+                        }
+                    },
+                    {
+                        table: 'sys_dictionary'
+                        id: '6381911871364bb0b082bf658b864948'
+                        key: {
+                            name: 'x_264938_prism_transactions'
+                            element: 'state'
                         }
                     },
                     {
                         table: 'sys_documentation'
-                        id: 'a49f91a9e63d445791cf296391f515a5'
+                        id: '646ad5fb136d41998e4bde4249576485'
                         key: {
-                            name: 'x_1311940_prism_field_maps'
-                            element: 'NULL'
+                            name: 'x_264938_prism_transactions'
+                            element: 'state'
                             language: 'en'
                         }
                     },
                     {
-                        table: 'sys_documentation'
-                        id: 'ac4d8b0d294a4cda9893ac0d9d45d005'
+                        table: 'sys_choice_set'
+                        id: '6885b5c47ce94db2a67ea2f54e2de66e'
                         key: {
-                            name: 'x_1311940_prism_endpoint'
-                            element: 'integration_account'
+                            name: 'x_264938_prism_endpoint'
+                            element: 'direction'
+                        }
+                    },
+                    {
+                        table: 'sys_documentation'
+                        id: '6ad9305789924561b68755f598eb99d2'
+                        key: {
+                            name: 'x_264938_prism_transactions'
+                            element: 'received_at'
+                            language: 'en'
+                        }
+                    },
+                    {
+                        table: 'sys_dictionary'
+                        id: '6b4805981a4144e6ae3b2fcc750f0783'
+                        key: {
+                            name: 'x_264938_prism_rules'
+                            element: 'local_field'
+                        }
+                    },
+                    {
+                        table: 'sys_dictionary'
+                        id: '6f2f7baa6b3d46ee997c7cdcdd67e44b'
+                        key: {
+                            name: 'x_264938_prism_field_maps'
+                            element: 'order'
+                        }
+                    },
+                    {
+                        table: 'sys_ui_element'
+                        id: '71a4db9583730b14027aa6d0deaad360'
+                        key: {
+                            sys_ui_section: 'e5a45b9583730b14027aa6d0deaad3e0'
+                            element: 'endpoint'
+                            position: '0'
+                        }
+                    },
+                    {
+                        table: 'sys_documentation'
+                        id: '746d0338957641e4a9c0ac5b4e5d1d84'
+                        key: {
+                            name: 'x_264938_prism_field_maps'
+                            element: 'external_path'
                             language: 'en'
                         }
                     },
                     {
                         table: 'sys_ui_element'
-                        id: 'b5a0e605837b4714027aa6d0deaad38d'
+                        id: '76eb5add837bc714027aa6d0deaad366'
                         key: {
-                            sys_ui_section: {
-                                id: '886e5ffc832f8390027aa6d0deaad380'
-                                key: {
-                                    name: 'x_1311940_prism_endpoint'
-                                    caption: 'NULL'
-                                    view: 'Default view'
-                                    sys_domain: 'global'
-                                }
-                            }
-                            element: 'root_path'
-                            position: '4'
+                            sys_ui_section: '886e5ffc832f8390027aa6d0deaad380'
+                            element: 'direction'
+                            position: '5'
+                        }
+                    },
+                    {
+                        table: 'sys_documentation'
+                        id: '7866643a02dc496fa163ab757a3a78b7'
+                        key: {
+                            name: 'x_264938_prism_rules'
+                            element: 'NULL'
+                            language: 'en'
+                        }
+                    },
+                    {
+                        table: 'sys_ui_element'
+                        id: '79a4db9583730b14027aa6d0deaad361'
+                        key: {
+                            sys_ui_section: 'e5a45b9583730b14027aa6d0deaad3e0'
+                            element: 'rule_script'
+                            position: '1'
+                        }
+                    },
+                    {
+                        table: 'sys_ui_element'
+                        id: '7aeb5add837bc714027aa6d0deaad364'
+                        key: {
+                            sys_ui_section: '886e5ffc832f8390027aa6d0deaad380'
+                            element: 'active'
+                            position: '3'
+                        }
+                    },
+                    {
+                        table: 'sys_ui_element'
+                        id: '7eeb5add837bc714027aa6d0deaad362'
+                        key: {
+                            sys_ui_section: '886e5ffc832f8390027aa6d0deaad380'
+                            element: 'integration_account'
+                            position: '1'
+                        }
+                    },
+                    {
+                        table: 'sys_choice'
+                        id: '80c330897465410d828a47174bc3ce19'
+                        key: {
+                            name: 'x_264938_prism_endpoint'
+                            element: 'direction'
+                            value: 'both'
+                            language: 'en'
+                            dependent_value: 'NULL'
+                        }
+                    },
+                    {
+                        table: 'sys_dictionary'
+                        id: '84c6d22469d049c28db3714da0f96df6'
+                        key: {
+                            name: 'x_264938_prism_transactions'
+                            element: 'response_body'
+                        }
+                    },
+                    {
+                        table: 'sys_ui_element'
+                        id: '84f1e6c5837b4714027aa6d0deaad38f'
+                        key: {
+                            sys_ui_section: 'b7e1e6c5837b4714027aa6d0deaad34f'
+                            element: 'order'
+                            position: '5'
+                        }
+                    },
+                    {
+                        table: 'sys_documentation'
+                        id: '85d608cd01394256aa653bea1c7329dd'
+                        key: {
+                            name: 'x_264938_prism_transactions'
+                            element: 'NULL'
+                            language: 'en'
                         }
                     },
                     {
                         table: 'sys_ui_section'
-                        id: 'b7e1e6c5837b4714027aa6d0deaad34f'
+                        id: '886e5ffc832f8390027aa6d0deaad380'
                         key: {
-                            name: 'x_1311940_prism_field_maps'
+                            name: 'x_264938_prism_endpoint'
                             caption: 'NULL'
                             view: {
                                 id: 'Default view'
@@ -1177,36 +583,234 @@ declare global {
                         }
                     },
                     {
-                        table: 'sys_ui_element'
-                        id: 'b9a0e605837b4714027aa6d0deaad38b'
-                        deleted: true
+                        table: 'sys_dictionary'
+                        id: '8a6c52417afd44dfaa5071857a31c0dc'
                         key: {
-                            sys_ui_section: {
-                                id: '886e5ffc832f8390027aa6d0deaad380'
+                            name: 'x_264938_prism_rules'
+                            element: 'endpoint'
+                        }
+                    },
+                    {
+                        table: 'ua_table_licensing_config'
+                        id: '8aaabe56f4c6496d958f7ae6b258a5ba'
+                        key: {
+                            name: 'x_264938_prism_rules'
+                        }
+                    },
+                    {
+                        table: 'sys_documentation'
+                        id: '8b96194f4beb4931b6961e3359fc04a4'
+                        key: {
+                            name: 'x_264938_prism_rules'
+                            element: 'local_field'
+                            language: 'en'
+                        }
+                    },
+                    {
+                        table: 'sys_dictionary'
+                        id: '8c23f21cce1c4e5a940bbc34f877193c'
+                        key: {
+                            name: 'x_264938_prism_transactions'
+                            element: 'target_table'
+                        }
+                    },
+                    {
+                        table: 'sys_dictionary'
+                        id: '8cc8c50306234ba6b35fa6489047ab5f'
+                        key: {
+                            name: 'x_264938_prism_endpoint'
+                            element: 'name'
+                        }
+                    },
+                    {
+                        table: 'sys_ui_section'
+                        id: '8d44bdbe832b83d0027aa6d0deaad361'
+                        key: {
+                            name: 'x_264938_prism_transactions'
+                            caption: 'NULL'
+                            view: {
+                                id: 'Default view'
                                 key: {
-                                    name: 'x_1311940_prism_endpoint'
-                                    caption: 'NULL'
-                                    view: 'Default view'
-                                    sys_domain: 'global'
+                                    name: 'NULL'
                                 }
                             }
+                            sys_domain: 'global'
+                        }
+                    },
+                    {
+                        table: 'sys_documentation'
+                        id: '8e4ad72d0d3c4d64b75fc46fc154dc4f'
+                        key: {
+                            name: 'x_264938_prism_transactions'
+                            element: 'response_status'
+                            language: 'en'
+                        }
+                    },
+                    {
+                        table: 'ua_table_licensing_config'
+                        id: '8f5bd2a4c192474888b754c8db4fc384'
+                        key: {
+                            name: 'x_264938_prism_transactions'
+                        }
+                    },
+                    {
+                        table: 'sys_dictionary'
+                        id: '8fa3c77e0bbb41f3a843816d1f18e65e'
+                        key: {
+                            name: 'x_264938_prism_endpoint'
+                            element: 'local_table'
+                        }
+                    },
+                    {
+                        table: 'ua_table_licensing_config'
+                        id: '9027130f7f8e42128de8826d24bbea75'
+                        key: {
+                            name: 'x_264938_prism_endpoint'
+                        }
+                    },
+                    {
+                        table: 'sys_documentation'
+                        id: '94b389bf8d664417a98f6360c1962af1'
+                        key: {
+                            name: 'x_264938_prism_transactions'
+                            element: 'target_sys_id'
+                            language: 'en'
+                        }
+                    },
+                    {
+                        table: 'sys_documentation'
+                        id: '9570e8104138418fa29ec6ea2009c506'
+                        key: {
+                            name: 'x_264938_prism_transactions'
+                            element: 'endpoint'
+                            language: 'en'
+                        }
+                    },
+                    {
+                        table: 'sys_choice'
+                        id: '998662e4c9804ccabc847c77ef9100b6'
+                        key: {
+                            name: 'x_264938_prism_transactions'
+                            element: 'state'
+                            value: 'complete'
+                            language: 'en'
+                            dependent_value: 'NULL'
+                        }
+                    },
+                    {
+                        table: 'sys_dictionary'
+                        id: '9c06ea2a61a04e44b890a1516ff17ebf'
+                        key: {
+                            name: 'x_264938_prism_field_maps'
+                            element: 'local_field'
+                        }
+                    },
+                    {
+                        table: 'sys_dictionary'
+                        id: '9d264cc181494a67a301bf29686562a4'
+                        key: {
+                            name: 'x_264938_prism_transactions'
+                            element: 'endpoint'
+                        }
+                    },
+                    {
+                        table: 'sys_dictionary'
+                        id: '9effde3433cc4eeabf831628c03f0378'
+                        key: {
+                            name: 'x_264938_prism_transactions'
+                            element: 'error_message'
+                        }
+                    },
+                    {
+                        table: 'sys_documentation'
+                        id: 'a840bb884c764702add82df847c6eae2'
+                        key: {
+                            name: 'x_264938_prism_transactions'
+                            element: 'error_message'
+                            language: 'en'
+                        }
+                    },
+                    {
+                        table: 'sys_documentation'
+                        id: 'ad088fe4bb6847a4af3b3841d7780055'
+                        key: {
+                            name: 'x_264938_prism_field_maps'
+                            element: 'order'
+                            language: 'en'
+                        }
+                    },
+                    {
+                        table: 'sys_documentation'
+                        id: 'b0937095a6ac47bb84a67e490ced6454'
+                        key: {
+                            name: 'x_264938_prism_rules'
+                            element: 'rule_script'
+                            language: 'en'
+                        }
+                    },
+                    {
+                        table: 'sys_choice'
+                        id: 'b2581d34aef24787957ad0542e578a47'
+                        key: {
+                            name: 'x_264938_prism_endpoint'
                             element: 'direction'
-                            position: '2'
+                            value: 'outbound'
+                            language: 'en'
+                            dependent_value: 'NULL'
+                        }
+                    },
+                    {
+                        table: 'sys_user_role'
+                        id: 'b596754baa4e4cfaa72fe27161be15c3'
+                        key: {
+                            name: 'x_264938_prism.admin'
+                        }
+                    },
+                    {
+                        table: 'sys_ui_element'
+                        id: 'b5a0e605837b4714027aa6d0deaad38d'
+                        key: {
+                            sys_ui_section: '886e5ffc832f8390027aa6d0deaad380'
+                            element: 'root_path'
+                            position: '4'
+                        }
+                    },
+                    {
+                        table: 'sys_dictionary'
+                        id: 'b5e445ae1703484bb8ca01ca665ae972'
+                        key: {
+                            name: 'x_264938_prism_transactions'
+                            element: 'response_status'
+                        }
+                    },
+                    {
+                        table: 'sys_ui_section'
+                        id: 'b7e1e6c5837b4714027aa6d0deaad34f'
+                        key: {
+                            name: 'x_264938_prism_field_maps'
+                            caption: 'NULL'
+                            view: {
+                                id: 'Default view'
+                                key: {
+                                    name: 'NULL'
+                                }
+                            }
+                            sys_domain: 'global'
+                        }
+                    },
+                    {
+                        table: 'sys_dictionary'
+                        id: 'ba3c0fdd690243648e3756281d0bdc9b'
+                        key: {
+                            name: 'x_264938_prism_rules'
+                            element: 'external_path'
                         }
                     },
                     {
                         table: 'sys_ui_element'
                         id: 'bbe1e6c5837b4714027aa6d0deaad38d'
                         key: {
-                            sys_ui_section: {
-                                id: 'b7e1e6c5837b4714027aa6d0deaad34f'
-                                key: {
-                                    name: 'x_1311940_prism_field_maps'
-                                    caption: 'NULL'
-                                    view: 'Default view'
-                                    sys_domain: 'global'
-                                }
-                            }
+                            sys_ui_section: 'b7e1e6c5837b4714027aa6d0deaad34f'
                             element: '.split'
                             position: '3'
                         }
@@ -1215,40 +819,27 @@ declare global {
                         table: 'sys_ui_element'
                         id: 'bda0e605837b4714027aa6d0deaad389'
                         key: {
-                            sys_ui_section: {
-                                id: '886e5ffc832f8390027aa6d0deaad380'
-                                key: {
-                                    name: 'x_1311940_prism_endpoint'
-                                    caption: 'NULL'
-                                    view: 'Default view'
-                                    sys_domain: 'global'
-                                }
-                            }
+                            sys_ui_section: '886e5ffc832f8390027aa6d0deaad380'
                             element: 'name'
                             position: '0'
                         }
                     },
                     {
-                        table: 'sys_dictionary'
-                        id: 'bda9c035e1f14207a7748250730ee54b'
+                        table: 'sys_choice'
+                        id: 'bdedb5e84aed457fad13074ba0a69498'
                         key: {
-                            name: 'x_1311940_prism_endpoint'
-                            element: 'NULL'
+                            name: 'x_264938_prism_transactions'
+                            element: 'state'
+                            value: 'received'
+                            language: 'en'
+                            dependent_value: 'NULL'
                         }
                     },
                     {
                         table: 'sys_ui_element'
                         id: 'bfe1e6c5837b4714027aa6d0deaad38b'
                         key: {
-                            sys_ui_section: {
-                                id: 'b7e1e6c5837b4714027aa6d0deaad34f'
-                                key: {
-                                    name: 'x_1311940_prism_field_maps'
-                                    caption: 'NULL'
-                                    view: 'Default view'
-                                    sys_domain: 'global'
-                                }
-                            }
+                            sys_ui_section: 'b7e1e6c5837b4714027aa6d0deaad34f'
                             element: 'external_path'
                             position: '1'
                         }
@@ -1257,15 +848,7 @@ declare global {
                         table: 'sys_ui_element'
                         id: 'c144bdbe832b83d0027aa6d0deaad372'
                         key: {
-                            sys_ui_section: {
-                                id: '8d44bdbe832b83d0027aa6d0deaad361'
-                                key: {
-                                    name: 'x_1311940_prism_transactions'
-                                    caption: 'NULL'
-                                    view: 'Default view'
-                                    sys_domain: 'global'
-                                }
-                            }
+                            sys_ui_section: '8d44bdbe832b83d0027aa6d0deaad361'
                             element: '.split'
                             position: '6'
                         }
@@ -1274,33 +857,17 @@ declare global {
                         table: 'sys_ui_element'
                         id: 'c544bdbe832b83d0027aa6d0deaad370'
                         key: {
-                            sys_ui_section: {
-                                id: '8d44bdbe832b83d0027aa6d0deaad361'
-                                key: {
-                                    name: 'x_1311940_prism_transactions'
-                                    caption: 'NULL'
-                                    view: 'Default view'
-                                    sys_domain: 'global'
-                                }
-                            }
+                            sys_ui_section: '8d44bdbe832b83d0027aa6d0deaad361'
                             element: 'error_message'
                             position: '4'
                         }
                     },
                     {
-                        table: 'sys_dictionary'
-                        id: 'c708698948064f35897e5fc6cea62f23'
-                        key: {
-                            name: 'x_1311940_prism_endpoint'
-                            element: 'root_path'
-                        }
-                    },
-                    {
                         table: 'sys_documentation'
-                        id: 'c71d841d2f664614bcc468f899769ecd'
+                        id: 'c65f0410259f46ce80d5791c73d2cb15'
                         key: {
-                            name: 'x_1311940_prism_transactions'
-                            element: 'target_sys_id'
+                            name: 'x_264938_prism_field_maps'
+                            element: 'endpoint'
                             language: 'en'
                         }
                     },
@@ -1308,15 +875,7 @@ declare global {
                         table: 'sys_ui_element'
                         id: 'c944bdbe832b83d0027aa6d0deaad36e'
                         key: {
-                            sys_ui_section: {
-                                id: '8d44bdbe832b83d0027aa6d0deaad361'
-                                key: {
-                                    name: 'x_1311940_prism_transactions'
-                                    caption: 'NULL'
-                                    view: 'Default view'
-                                    sys_domain: 'global'
-                                }
-                            }
+                            sys_ui_section: '8d44bdbe832b83d0027aa6d0deaad361'
                             element: 'received_at'
                             position: '2'
                         }
@@ -1325,156 +884,71 @@ declare global {
                         table: 'sys_ui_element'
                         id: 'c944bdbe832b83d0027aa6d0deaad375'
                         key: {
-                            sys_ui_section: {
-                                id: '8d44bdbe832b83d0027aa6d0deaad361'
-                                key: {
-                                    name: 'x_1311940_prism_transactions'
-                                    caption: 'NULL'
-                                    view: 'Default view'
-                                    sys_domain: 'global'
-                                }
-                            }
+                            sys_ui_section: '8d44bdbe832b83d0027aa6d0deaad361'
                             element: 'target_table'
                             position: '10'
                         }
                     },
                     {
-                        table: 'sys_dictionary'
-                        id: 'c9b2b9e7e5254f00934ca3445776a2c7'
+                        table: 'sys_documentation'
+                        id: 'ca6a14caf320459492523a87b0c8484c'
                         key: {
-                            name: 'x_1311940_prism_endpoint'
-                            element: 'name'
+                            name: 'x_264938_prism_field_maps'
+                            element: 'local_field'
+                            language: 'en'
                         }
                     },
                     {
                         table: 'sys_ui_element'
                         id: 'cd44bdbe832b83d0027aa6d0deaad373'
                         key: {
-                            sys_ui_section: {
-                                id: '8d44bdbe832b83d0027aa6d0deaad361'
-                                key: {
-                                    name: 'x_1311940_prism_transactions'
-                                    caption: 'NULL'
-                                    view: 'Default view'
-                                    sys_domain: 'global'
-                                }
-                            }
+                            sys_ui_section: '8d44bdbe832b83d0027aa6d0deaad361'
                             element: 'response_status'
                             position: '8'
                         }
                     },
                     {
-                        table: 'sys_choice'
-                        id: 'ceb71eafa9264b4cb0e983e746ead0b0'
-                        key: {
-                            name: 'x_1311940_prism_transactions'
-                            element: 'state'
-                            value: 'received'
-                            language: 'en'
-                            dependent_value: 'NULL'
-                        }
-                    },
-                    {
-                        table: 'ua_table_licensing_config'
-                        id: 'cf818ea2fcee4a97bb19f21af11c913a'
-                        key: {
-                            name: 'x_1311940_prism_rules'
-                        }
-                    },
-                    {
-                        table: 'sys_ui_element'
-                        id: 'd0ae4a4d83b74714027aa6d0deaad32b'
-                        deleted: true
-                        key: {
-                            sys_ui_section: {
-                                id: '886e5ffc832f8390027aa6d0deaad380'
-                                key: {
-                                    name: 'x_1311940_prism_endpoint'
-                                    caption: 'NULL'
-                                    view: 'Default view'
-                                    sys_domain: 'global'
-                                }
-                            }
-                            element: 'integration_account'
-                            position: '4'
-                        }
-                    },
-                    {
-                        table: 'sys_choice'
-                        id: 'd5c4738d30d84a9a83dbc7b4b51a0aac'
-                        key: {
-                            name: 'x_1311940_prism_transactions'
-                            element: 'state'
-                            value: 'complete'
-                            language: 'en'
-                            dependent_value: 'NULL'
-                        }
-                    },
-                    {
-                        table: 'sys_ui_element'
-                        id: 'd8ae4a4d83b74714027aa6d0deaad346'
-                        deleted: true
-                        key: {
-                            sys_ui_section: {
-                                id: '886e5ffc832f8390027aa6d0deaad380'
-                                key: {
-                                    name: 'x_1311940_prism_endpoint'
-                                    caption: 'NULL'
-                                    view: 'Default view'
-                                    sys_domain: 'global'
-                                }
-                            }
-                            element: 'root_path'
-                            position: '7'
-                        }
-                    },
-                    {
-                        table: 'sys_ui_element'
-                        id: 'dcae4a4d83b74714027aa6d0deaad344'
-                        deleted: true
-                        key: {
-                            sys_ui_section: {
-                                id: '886e5ffc832f8390027aa6d0deaad380'
-                                key: {
-                                    name: 'x_1311940_prism_endpoint'
-                                    caption: 'NULL'
-                                    view: 'Default view'
-                                    sys_domain: 'global'
-                                }
-                            }
-                            element: '.split'
-                            position: '5'
-                        }
-                    },
-                    {
-                        table: 'sys_db_object'
-                        id: 'dce5886194e34576b27f0a9967fe3ace'
-                        key: {
-                            name: 'x_1311940_prism_endpoint'
-                        }
-                    },
-                    {
                         table: 'sys_dictionary'
-                        id: 'e22ee606470a470a8a90ad4caf6af044'
+                        id: 'd38d36c795124dcfbc1062c19d927a90'
                         key: {
-                            name: 'x_1311940_prism_transactions'
-                            element: 'request_body'
+                            name: 'x_264938_prism_field_maps'
+                            element: 'NULL'
                         }
                     },
                     {
                         table: 'sys_documentation'
-                        id: 'e3ed0be8e4c64f098f9bf8aba03fc0f2'
+                        id: 'd453bba0464b409d8ba394982535feb2'
                         key: {
-                            name: 'x_1311940_prism_field_maps'
-                            element: 'local_field'
+                            name: 'x_264938_prism_rules'
+                            element: 'external_path'
                             language: 'en'
+                        }
+                    },
+                    {
+                        table: 'sys_documentation'
+                        id: 'd537b3a6b9ad40f8ac9699143c548808'
+                        key: {
+                            name: 'x_264938_prism_endpoint'
+                            element: 'active'
+                            language: 'en'
+                        }
+                    },
+                    {
+                        table: 'sys_choice'
+                        id: 'd8be323213da44309c7e1f844f3fe804'
+                        key: {
+                            name: 'x_264938_prism_transactions'
+                            element: 'state'
+                            value: 'failed'
+                            language: 'en'
+                            dependent_value: 'NULL'
                         }
                     },
                     {
                         table: 'sys_ui_section'
                         id: 'e5a45b9583730b14027aa6d0deaad3e0'
                         key: {
-                            name: 'x_1311940_prism_rules'
+                            name: 'x_264938_prism_rules'
                             caption: 'NULL'
                             view: {
                                 id: 'Default view'
@@ -1486,87 +960,53 @@ declare global {
                         }
                     },
                     {
-                        table: 'sys_dictionary'
-                        id: 'e9f52ae1b9a548d69dec2ed78416e913'
-                        key: {
-                            name: 'x_1311940_prism_rules'
-                            element: 'endpoint'
-                        }
-                    },
-                    {
                         table: 'sys_documentation'
-                        id: 'efbd8922cfc54f429323714ee4c0f643'
+                        id: 'e6a8596ed4a34ca0991e3df55327bcce'
                         key: {
-                            name: 'x_1311940_prism_transactions'
-                            element: 'received_at'
+                            name: 'x_264938_prism_endpoint'
+                            element: 'direction'
                             language: 'en'
                         }
                     },
                     {
-                        table: 'sys_documentation'
-                        id: 'f44d75efbb544744af246b9290364fae'
+                        table: 'sys_dictionary'
+                        id: 'ef3f7d2bad61472bac6b64f53757f4e3'
                         key: {
-                            name: 'x_1311940_prism_field_maps'
-                            element: 'order'
-                            language: 'en'
-                        }
-                    },
-                    {
-                        table: 'sys_choice_set'
-                        id: 'f7abb85a3b1e49a9803f981e8f505e71'
-                        key: {
-                            name: 'x_1311940_prism_transactions'
-                            element: 'state'
+                            name: 'x_264938_prism_transactions'
+                            element: 'NULL'
                         }
                     },
                     {
                         table: 'sys_dictionary'
-                        id: 'f8cfc992a1fb42659cc683775cd417e4'
+                        id: 'f2464e7737cb4dcfb142d064618706a6'
                         key: {
-                            name: 'x_1311940_prism_field_maps'
-                            element: 'endpoint'
+                            name: 'x_264938_prism_endpoint'
+                            element: 'direction'
+                        }
+                    },
+                    {
+                        table: 'sys_db_object'
+                        id: 'f278cd596f06415b89dc049c02113d31'
+                        key: {
+                            name: 'x_264938_prism_field_maps'
+                        }
+                    },
+                    {
+                        table: 'sys_documentation'
+                        id: 'f322520bd8aa4000949cad7f04de10d5'
+                        key: {
+                            name: 'x_264938_prism_endpoint'
+                            element: 'name'
+                            language: 'en'
                         }
                     },
                     {
                         table: 'sys_ui_element'
                         id: 'faeb5add837bc714027aa6d0deaad363'
                         key: {
-                            sys_ui_section: {
-                                id: '886e5ffc832f8390027aa6d0deaad380'
-                                key: {
-                                    name: 'x_1311940_prism_endpoint'
-                                    caption: 'NULL'
-                                    view: 'Default view'
-                                    sys_domain: 'global'
-                                }
-                            }
+                            sys_ui_section: '886e5ffc832f8390027aa6d0deaad380'
                             element: 'local_table'
                             position: '2'
-                        }
-                    },
-                    {
-                        table: 'sys_documentation'
-                        id: 'fc0b9f24e3b94cd5980d511569f81fdf'
-                        key: {
-                            name: 'x_1311940_prism_endpoint'
-                            element: 'root_path'
-                            language: 'en'
-                        }
-                    },
-                    {
-                        table: 'sys_db_object'
-                        id: 'fdfc72c8e35847318decc693ab9eee74'
-                        key: {
-                            name: 'x_1311940_prism_transactions'
-                        }
-                    },
-                    {
-                        table: 'sys_ws_header_map'
-                        id: 'ffd80bf312704d748bf226331c092d69'
-                        deleted: true
-                        key: {
-                            web_service_operation: 'b46e0688e5574581a5cdd59418603524'
-                            web_service_header: '779526f22d5643ab835b0e0aa9eeaa0e'
                         }
                     },
                 ]

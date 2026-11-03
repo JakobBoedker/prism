@@ -5,7 +5,7 @@ Record({
     table: 'sys_ui_section',
     data: {
         header: false,
-        name: 'x_1311940_prism_field_maps',
+        name: 'x_264938_prism_field_maps',
         sys_domain: 'global',
         sys_domain_path: '/',
         title: true,

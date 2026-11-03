@@ -9,7 +9,7 @@ function addTransaction(endpointId: string, raw: string): string | null {
     // Get Time for request
     const gdt = new GlideDateTime();
     // creates initial integration log.
-    const gr = new GlideRecord('x_1311940_prism_transactions');
+    const gr = new GlideRecord('x_264938_prism_transactions');
     gr.initialize();
     gr.setValue('endpoint', endpointId);
     gr.setValue('received_at', gdt.getValue());
@@ -19,7 +19,7 @@ function addTransaction(endpointId: string, raw: string): string | null {
 }
 // get sys id from from endpoint table based on endpoint in api URI
 function getEndpointId(endpoint: string): endpoint_extra {
-    const gr = new GlideRecord('x_1311940_prism_endpoint');
+    const gr = new GlideRecord('x_264938_prism_endpoint');
     gr.addQuery('name', endpoint);
     gr.query();
     if (!gr.next()){
@@ -40,7 +40,7 @@ function getEndpointId(endpoint: string): endpoint_extra {
 // get all field map records for that endpoint
 // which local fields map to external fields from the payload
 function getFieldMaps(endpoint: string): field_maps[] {
-    const gr = new GlideRecord('x_1311940_prism_field_maps');
+    const gr = new GlideRecord('x_264938_prism_field_maps');
     gr.addQuery('endpoint', endpoint);
     gr.orderBy('order');
     gr.query();
@@ -104,7 +104,7 @@ function createGlideRecord(table: string, field_values: corrected_fields[]): str
 // main function executes the inbound request with help from all the other functions
 export function processInbound(request: RESTAPIRequest, response: RESTAPIResponse){
 
-    if (!gs.hasRole('x_1311940_prism.integration_engine')){
+    if (!gs.hasRole('x_264938_prism.integration_engine')){
         response.setStatus(401);
         return;
     }

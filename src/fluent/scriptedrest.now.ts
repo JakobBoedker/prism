@@ -5,7 +5,7 @@ const acl = Acl({
     $id: Now.ID['integraton-engine-rest-acl'],
     type: 'rest_endpoint',
     name: 'integration-inseration',
-    script: 'answer = gs.hasRole("x_1311940_prism.integration_engine")',
+    script: 'answer = gs.hasRole("x_264938_prism.integration_engine")',
     operation: 'execute'
 })
 
