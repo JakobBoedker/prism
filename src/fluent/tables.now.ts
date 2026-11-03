@@ -1,7 +1,7 @@
 import {Table, StringColumn, BooleanColumn, ReferenceColumn, IntegerColumn, DateTimeColumn, ScriptColumn} from '@servicenow/sdk/core'
 
-export const x_264938_prism_endpoint = Table({
-    name: 'x_264938_prism_endpoint',
+export const x_2194970_prism_endpoint = Table({
+    name: 'x_2194970_prism_endpoint',
     label: 'Table for Endpoints',
     display: 'name',
     schema: {
@@ -39,14 +39,14 @@ export const x_264938_prism_endpoint = Table({
 
 })
 
-export const x_264938_prism_field_maps = Table({
-    name: 'x_264938_prism_field_maps',
+export const x_2194970_prism_field_maps = Table({
+    name: 'x_2194970_prism_field_maps',
     label: 'Table for field mapping',
     display: 'endpoint',
     schema: {
         endpoint: ReferenceColumn({
             label: 'Endpoint',
-            referenceTable: 'x_264938_prism_endpoint',
+            referenceTable: 'x_2194970_prism_endpoint',
             cascadeRule: 'none',
         }),
         local_field: StringColumn({
@@ -64,14 +64,14 @@ export const x_264938_prism_field_maps = Table({
     },
 })
 
-export const x_264938_prism_transactions = Table({
-    name: 'x_264938_prism_transactions',
+export const x_2194970_prism_transactions = Table({
+    name: 'x_2194970_prism_transactions',
     label: 'Transaction logs',
     display: 'endpoint',
     schema: {
         endpoint: ReferenceColumn({
             label: 'Endpoint',
-            referenceTable: 'x_264938_prism_endpoint',
+            referenceTable: 'x_2194970_prism_endpoint',
             cascadeRule: 'none',
         }),
         received_at: DateTimeColumn({
@@ -113,13 +113,13 @@ export const x_264938_prism_transactions = Table({
     },
 })
 
-export const x_264938_prism_rules = Table({
-    name: 'x_264938_prism_rules',
+export const x_2194970_prism_rules = Table({
+    name: 'x_2194970_prism_rules',
     label: 'Rules',
     schema: {
         endpoint: ReferenceColumn({
             label: 'Endpoint',
-            referenceTable: 'x_264938_prism_endpoint',
+            referenceTable: 'x_2194970_prism_endpoint',
             cascadeRule: 'none',
         }),
 

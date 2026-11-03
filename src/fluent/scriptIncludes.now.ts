@@ -4,7 +4,7 @@ ScriptInclude({
     $id: Now.ID['JsonPath'],
     name: 'JsonPath',
     active: true,
-    apiName: 'x_264938_prism.JsonPath',
+    apiName: 'x_2194970_prism.JsonPath',
     script: Now.include('../server/tokenizer.ts'),
 })
 
@@ -12,6 +12,6 @@ ScriptInclude({
     $id: Now.ID['IntegrationEngine'],
     name: 'IntegrationEngine',
     active: true,
-    apiName: 'x_264938_prism.IntegrationEngine',
+    apiName: 'x_2194970_prism.IntegrationEngine',
     script: Now.include('../server/integration_engine.ts'),
 })

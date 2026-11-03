@@ -5,7 +5,7 @@ Record({
     table: 'sys_ui_section',
     data: {
         header: false,
-        name: 'x_264938_prism_transactions',
+        name: 'x_2194970_prism_transactions',
         sys_domain: 'global',
         sys_domain_path: '/',
         title: true,
